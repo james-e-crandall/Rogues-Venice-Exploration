@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!--Civ Unique Civilian-->
+		<Row Type="UNIT_PATRISIATO" Kind="KIND_UNIT"/>
+	</Types>
+	<Units>
+		<Row UnitType="UNIT_PATRISIATO" Name="LOC_UNIT_PATRISIATO_NAME" Description="LOC_UNIT_PATRISIATO_DESCRIPTION" BaseSightRange="1" BaseMoves="3" PrereqPopulation="5" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" FoundCity="true" CostProgressionModel="COST_PROGRESSION_NUM_SETTLEMENTS" CostProgressionParam1="20" TraitType="TRAIT_VENICE"/>
+	</Units>
+	<Unit_Stats>
+	</Unit_Stats>
+	<Unit_Costs>
+		<Row UnitType="UNIT_PATRISIATO" YieldType="YIELD_PRODUCTION" Cost="70"/>
+	</Unit_Costs>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_PATRISIATO" ReplacesUnitType="UNIT_SETTLER"/>
+	</UnitReplaces>
+	<Tags>
+		<!--Civ Unique Civilian-->
+		<Row Tag="UNIT_CLASS_PATRISIATO" Category="UNIT_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<!--Civ Unique Civilian-->
+		<Row Type="UNIT_PATRISIATO" Tag="UNIT_CLASS_CREATE_TOWN"/>
+		<Row Type="UNIT_PATRISIATO" Tag="UNIT_CLASS_PATRISIATO"/>
+	</TypeTags>
+	<UnitClass_Abilities>
+	</UnitClass_Abilities>
+	<UnitAbilities>
+		<!--Unique-->
+		<Row UnitAbilityType="ABILITY_PATRISIATO" Name="LOC_UNIT_PATRISIATO_NAME" Description="LOC_ABILITY_PATRISIATO_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+	</UnitAbilityModifiers>
+	<Unit_Advisories>
+		<Row UnitType="UNIT_PATRISIATO" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
+	</Unit_Advisories>
+</Database>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
+	</Kinds>
+	<Types>
+		<!--Civ Unique Improvements-->
+		<Row Type="IMPROVEMENT_BACINO" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<Constructibles>
+		<!--Civ Unique Improvements-->
+		<Row ConstructibleType="IMPROVEMENT_BACINO" Name="LOC_IMPROVEMENT_BACINO_NAME" Description="LOC_IMPROVEMENT_BACINO_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_BACINO_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="90" Population="1" Age="AGE_EXPLORATION" AdjacentTerrain="TERRAIN_COAST"/>
+	</Constructibles>
+
+	<Improvements>
+		<!--Civ Unique Improvements-->
+		<Row ConstructibleType="IMPROVEMENT_BACINO" ResourceTier="0" CityBuildable="true" TraitType="TRAIT_VENICE" SameAdjacentValid="false"/>
+	</Improvements>
+	<TypeTags>
+		<Row Type="IMPROVEMENT_BACINO" Tag="UNIQUE_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_BACINO" Tag="AGELESS"/>
+	</TypeTags>
+		<!--Civ Unique Improvements-->
+	
+	<Warehouse_YieldChanges>
+		<Row ID="StatoDelMarMarineProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="2" BiomeInCity="BIOME_MARINE"/>
+		<Row ID="StatoDelMarMarineGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="2" BiomeInCity="BIOME_MARINE"/>
+		<Row ID="StatoDelMarMarineFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="2" BiomeInCity="BIOME_MARINE"/>
+	</Warehouse_YieldChanges>
+
+
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="IMPROVEMENT_BACINO" DistrictType="DISTRICT_RURAL"/>
+	</Constructible_ValidDistricts>
+
+	<Constructible_YieldChanges>
+		<!--Civ Unique Improvements-->
+		<Row ConstructibleType="IMPROVEMENT_BACINO" YieldType="YIELD_DIPLOMACY" YieldChange="3"/>
+		<!--Wonders-->
+	</Constructible_YieldChanges>
+	<Constructible_Adjacencies>
+		<Row ConstructibleType="IMPROVEMENT_BACINO" YieldChangeId="BacinoResourceCulture"/>
+		<Row ConstructibleType="IMPROVEMENT_BACINO" YieldChangeId="BacinoResourceGold"/>
+	</Constructible_Adjacencies>
+	<Constructible_Advisories>
+		<Row ConstructibleType="IMPROVEMENT_BACINO" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ConstructibleType="IMPROVEMENT_BACINO" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+	</Constructible_Advisories>
+	<Adjacency_YieldChanges>
+		<Row ID="BacinoResourceGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
+		<Row ID="BacinoResourceCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
+
+	</Adjacency_YieldChanges>
+	<Constructible_Plunders>
+		<!--Civ Unique Improvements-->
+
+		<Row ConstructibleType="IMPROVEMENT_BACINO" PlunderType="PLUNDER_HEAL" Amount="30"/>
+	</Constructible_Plunders>
+</Database>

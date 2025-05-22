@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+		<!-- ==================================================	-->
+		<!--	VENICE							-->
+		<!-- ==================================================	-->
+		<Row Tag="LOC_TREE_CIVICS_EX_VENICE_NAME">
+			<Text>Venetian Civics</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_MAESTRIA_LAGUNARE_NAME">
+			<Text>Maeastria Lagunare</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_MAESTRIA_LAGUNARE_QUOTE">
+			<Text>"God, who has given us this home in the waters, will preserve it"</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_MAESTRIA_LAGUNARE_QUOTE_AUTHOR">
+			<Text>Adapted from a old Venetian prayer</Text>
+		</Row>
+
+		<!-- to do: add quotes -->
+		<Row Tag="LOC_CIVIC_ARTIGIANATO_NAME">
+			<Text>Artigianato</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_ARTIGIANATO_QUOTE">
+
+			<Text>"It is the city of mirrors, the city of mirages, at once solid and liquid, at once air and stone."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_ARTIGIANATO_QUOTE_AUTHOR">
+			<Text>Erica Jong</Text>
+		</Row>
+
+
+	
+		<Row Tag="LOC_CIVIC_TRADIZIONE_DEGLI_ARSENALOTTI_NAME">
+			<Text>Tradizione degli Arsenalotti</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_TRADIZIONE_DEGLI_ARSENALOTTI_QUOTE">
+			<Text>"So great is the number of the galleys which are built and fitted out there, that it is a thing incredible to those who have not seen it."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_TRADIZIONE_DEGLI_ARSENALOTTI_QUOTE_AUTHOR">
+			<Text>Pero Tafur</Text>
+		</Row>
+
+		
+
+		<!-- to do: add quotes -->
+		<Row Tag="LOC_CIVIC_STATO_DEL_MAR_NAME">
+			<Text>Stato del Mar</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_STATO_DEL_MAR_QUOTE">
+
+			<Text>"The Commonwealth of Venice in their armory have this inscription: 'Happy is that city which in time of peace thinks of war'."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_STATO_DEL_MAR_QUOTE_AUTHOR">
+			<Text>Robert Burton</Text>
+		</Row>
+		
+		<!--Venice Civic Description-->
+		<Row Tag="MOD_TRADIZIONE_DEGLI_ARSENALOTTI_FLOTTA_VELOCE_DESCRIPTION">
+			<Text>+1 Movement for Naval Units.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_STATO_DEL_MAR_MARINE_FOOD_DESCRIPTION">
+			<Text>+2 [icon:YIELD_FOOD] Food for each Marine tile.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_STATO_DEL_MAR_MARINE_GOLD_DESCRIPTION">
+			<Text>+2 [icon:YIELD_GOLD] Gold for each Marine tile.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_STATO_DEL_MAR_MARINE_PRODUCTION_DESCRIPTION">
+			<Text>+2 [icon:YIELD_PRODUCTION] Production for each Marine tile.</Text>
+		</Row>
+
+		<!--Venice Unique Traditions-->
+		<Row Tag="LOC_TRADITION_LAGUNA_PROTETTA_NAME">
+			<Text>Laguna Protetta</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_LAGUNA_PROTETTA_DESCRIPTION">
+			<Text>Coastal Settlements receive +3 [icon:YIELD_PRODUCTION] production.</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_TRADITION_FORNA_DE_MURANO_NAME">
+			<Text>Fornace di Murano</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_FORNA_DE_MURANO_DESCRIPTION">
+
+			<Text>Culture buildings receive +2 [icon:YIELD_PRODUCTION] production.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_TRADITION_COSTRUZIONE_NAVALE_ACCELERATA_NAME">
+			<Text>Costruzione Navale Accellerata</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_COSTRUZIONE_NAVALE_ACCELERATA_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production for Naval Units.</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_TRADITION_REGIA_MARINA_NAME">
+			<Text>Regia Marina</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_REGIA_MARINA_DESCRIPTION">
+			<Text>Fleet commanders get +1 command radius.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_POTENZIA_VENEZIA_NAME">
+			<Text>Potenza di Venezia</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_POTENZIA_VENEZIA_DESCRIPTION">
+			<Text>Whenever you build a Naval Combat Unit, the city you built it in gains 25% of its cost as [icon:YIELD_GOLD] Gold.</Text>
+		</Row>
+	</EnglishText>
+</Database>

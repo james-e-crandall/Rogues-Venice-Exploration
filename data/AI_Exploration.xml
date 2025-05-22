@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AiListTypes>
+
+		<!-- Venice -->
+		<Row ListType="Venetian Unit Biases"/>
+		<Row ListType="Venetian Government Bias"/>
+		<Row ListType="Venetian Settle Plot Conditions" />
+		<Row ListType="Venetian Constructibles Biases" />
+
+
+	</AiListTypes>
+	<AiLists>
+		<!-- Venice -->
+		<Row ListType="Venetian Unit Biases" LeaderType="TRAIT_VENICE" System="UnitBiases"/>
+		<Row ListType="Venetian Government Bias" LeaderType="TRAIT_VENICE" System="GovernmentBiases"/>
+		<Row ListType="Venetian Settle Plot Conditions" LeaderType="TRAIT_VENICE" System="SettlementPlotEvaluations"/>
+
+		<Row ListType="Venetian Constructibles Biases" LeaderType="TRAIT_VENICE" System="ConstructibleBiases" />
+	</AiLists>
+	<AiFavoredItems>
+
+
+		<!-- Venice -->
+		<Row ListType="Venetian Unit Biases" Item="UNIT_KISPOKO_NENA_TO" Value="50"/>
+		<Row ListType="Venetian Unit Biases" Item="UNIT_KISPOKO_NENA_TO_2" Value="50"/>
+		<Row ListType="Venetian Unit Biases" Item="UNIT_KISPOKO_NENA_TO_3" Value="50"/>
+		<Row ListType="Venetian Unit Biases" Item="UNIT_HEAVY_ARCHER" Value="25"/>
+		<Row ListType="Venetian Unit Biases" Item="UNIT_CROSSBOWMAN" Value="25"/>
+		<Row ListType="Venetian Unit Biases" Item="UNIT_ARQUEBUSIER" Value="25"/>
+
+		<Row ListType="Venetian Government Bias" Item="GOVERNMENT_FEUDAL_MONARCHY" Value="25"/>
+
+		<Row ListType="Venetian Settle Plot Conditions" Item="Specific Terrain" Value="50" StringVal="TERRAIN_COAST" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_TERRAIN"/>
+		<Row ListType="Venetian Settle Plot Conditions" Item="Resource Class" Value="50" StringVal="RESOURCECLASS_EMPIRE" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_STRATEGIC_RESOURCES"/>
+
+		<Row ListType="Venetian Constructibles Biases" Item="IMPROVEMENT_BACINO" Value="200"/>
+
+
+		<Row ListType="Venetian Constructibles Biases" Item="IMPROVEMENT_FARM" Value="25"/>
+		<Row ListType="Venetian Constructibles Biases" Item="IMPROVEMENT_CAMP" Value="25"/>
+
+
+	</AiFavoredItems>
+</Database>

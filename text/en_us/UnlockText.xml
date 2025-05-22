@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_VENICE_MACHIAVELLI_TOOLTIP">
+			<Text>[B]Machiavelli[/B] is from the same region as [B]Venice[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GREECE_VENICE_DESCRIPTION">
+			<Text>Play as [B]Greece[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_ROME_VENICE_DESCRIPTION">
+			<Text>Play as [B]Rome[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_VENICE_FRENCH_EMPIRE_TOOLTIP">
+			<Text>The [B]Venice [/B] are from the same continent as [B]France[/b].</Text>
+		</Row>
+
+		<Row Tag="LOC_UNLOCK_PLAY_AS_VENICE_PRUSSIA_TOOLTIP">
+			<Text>The [B]Venice [/B] are from the same continent as [B]Prussia[/b].</Text>
+		</Row>
+
+		<Row Tag="LOC_UNLOCK_PLAY_AS_VENICE_FRENCH_EMPIRE_DESCRIPTION">
+			<Text>Play as [B]Venice[/B].</Text>
+		</Row>
+
+		<Row Tag="LOC_UNLOCK_PLAY_AS_VENICE_PRUSSIA_DESCRIPTION">
+			<Text>Play as [B]Venice[/B].</Text>
+		</Row>
+
+		<Row Tag="LOC_UNLOCK_PORT_SETTLEMENTS_VENICE_DESCRIPTION">
+			<Text>Have a Settlement with 6 [B]Coastal[/B] tiles.</Text>
+		</Row>
+
+
+
+		<!-- <Row Tag="LOC_UNLOCK_PLAY_AS_MISSISSIPPI_VENICE_DESCRIPTION">
+			<Text>The [B]Mississippians [/B] were a contemporary of the [B]Shawnee's [/B] ancestors.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_VENICE_DESCRIPTION">
+			<Text>Play as the [B]Shawnee[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_VENICE_MEXICO_TOOLTIP">
+			<Text>The [B]Shawnee [/B] are from the same continent as [B]Mexico[/b].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_VENICE_AMERICA_TOOLTIP">
+			<Text>The [B]Shawnee [/B] are from the same continent as [B]Mexico[/b].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_HIDES_DESCRIPTION">
+			<Text>Improve 3 [B]Hides[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_HIDES_TOOLTIP">
+			<Text>[B]Hides[/B] were an important commodity to the [B]Shawnee[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_HIDES_NARRATIVE">
+			<Text>The forest trappers enter the city at dawn, burdened by the tanned and stretched hides they intend for the market. They are met, sometimes even outside the gates, by merchants eager for trade - hides have become vital to the {1_Civilization_Adj} economy... as have their procurers. </Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_HIDES_UNLOCK">
+			<Text>You have unlocked Shawnee by improving 3 Hides Resources.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_CITY_STATES_DESCRIPTION">
+			<Text>Be [B]Suzerain[/B] of 2 [B]City-States[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_CITY_STATES_TOOLTIP">
+			<Text>The [B]Shawnee [/B] were friends with many smaller nations.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_CITY_STATES_NARRATIVE">
+			<Text>Power in {1_Civilization_Adj} lands emerges not only from the palace, but from the network of diplomatic alliances that converge there. The teachings of the prophet Tenskwatawa have begun to circulate among some that move between the city-states and {1_Civilization_Adj} cities; a lesson of unity in the face of change.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_CITY_STATES_UNLOCK">
+			<Text>You have unlocked Shawnee by becoming the Suzerain of 2 City-States.</Text>
+		</Row> -->
+	</EnglishText>
+</Database>

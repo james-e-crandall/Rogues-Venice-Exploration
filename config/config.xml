@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" LeaderDomain="StandardLeaders" LeaderType="LEADER_MACHIAVELLI" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_VENICE_MACHIAVELLI_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE"/>
+	</LeaderCivilizationBias>
+	<Civilizations>
+		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" CivilizationName="LOC_CIVILIZATION_VENICE_NAME" CivilizationFullName="LOC_CIVILIZATION_VENICE_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_VENICE_DESCRIPTION" CivilizationIcon="civ_sym_shawnee.png"/>
+
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" Type="TRAIT_VENICE_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_VENICE_ABILITY_NAME" Description="LOC_TRAIT_VENICE_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" Type="IMPROVEMENT_BACINO" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_BACINO_NAME" Description="LOC_IMPROVEMENT_BACINO_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" Type="UNIT_PATRISIATO" Kind="KIND_UNIT" Name="LOC_UNIT_PATRISIATO_NAME" Description="LOC_UNIT_PATRISIATO_DESCRIPTION"/>
+	</CivilizationItems>
+
+	<CivilizationTags>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" TagType="TAG_TRAIT_ECONOMIC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" TagType="TAG_TRAIT_MILITARISTIC"/>
+	</CivilizationTags>
+	<LeaderUnlocks>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_MACHIAVELLI" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VENICE" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VENICE_NAME" Description="LOC_CIVILIZATION_VENICE_DESCRIPTION" Icon="ICON_CIVILIZATION_VENICE"/>
+	</LeaderUnlocks>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VENICE" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VENICE_NAME" Description="LOC_CIVILIZATION_VENICE_DESCRIPTION" Icon="ICON_CIVILIZATION_VENICE"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GREECE" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VENICE" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VENICE_NAME" Description="LOC_CIVILIZATION_VENICE_DESCRIPTION" Icon="ICON_CIVILIZATION_VENICE"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_FRENCH_EMPIRE" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_FRENCH_EMPIRE_NAME" Description="LOC_CIVILIZATION_FRENCH_EMPIRE_DESCRIPTION" Icon="ICON_CIVILIZATION_FRENCH_EMPIRE"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_PRUSSIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_PRUSSIA_NAME" Description="LOC_CIVILIZATION_PRUSSIA_DESCRIPTION" Icon="ICON_CIVILIZATION_PRUSSIA"/>
+
+
+	</CivilizationUnlocks>
+</Database>

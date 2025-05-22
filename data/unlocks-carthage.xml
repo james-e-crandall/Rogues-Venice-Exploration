@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_VENICE" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VENICE"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VENICE" Name="LOC_CIVILIZATION_VENICE_NAME" Description="LOC_UNLOCK_EXPLORATION_CIV_DESCRIPTION" Icon="ICON_CIVILIZATION_VENICE" CivUnlock="true"/>
+	</UnlockRewards>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VENICE" RequirementSetId="REQSET_CIV_IS_CARTHAGE" Description="LOC_UNLOCK_PLAY_AS_CARTHAGE_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_CARTHAGE_TOOLTIP"/>
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+	</UnlockConfigurationValues>
+</Database>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Venetian -->
+	<Modifier id="MOD_TRADIZIONE_DEGLI_ARSENALOTTI_FLOTTA_VELOCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_NAVAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">MOD_TRADIZIONE_DEGLI_ARSENALOTTI_FLOTTA_VELOCE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="LAGUNA_PROTETTA_MOD_ADJUST_PRODUCTION_2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
+		<Argument name="Apply">Rate</Argument>
+		<Argument name="Percent">30</Argument>
+		<Argument name="UnitType">UNIT_CLASS_NAVAL</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_COSTRUZIONE_NAVALE_ACCELERATA_NAME</Argument>
+		<String context="Description">LOC_TRADITION_COSTRUZIONE_NAVALE_ACCELERATA_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="FORNA_DE_MURANO_MOD_CULTURE_BUILDING_PRODUCTION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tag">CULTURE</Argument>
+
+		<String context="Description">LOC_TRADITION_FORNA_DE_MURANO_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="REGIA_MARINA_MOD_ADJUST_COMMAND_RADIUS" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_COMMAND_RADIUS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TYPE_MATCHES">
+				<Argument name="UnitType">UNIT_FLEET_COMMANDER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+	<Modifier id="POTENZIA_VENEZIA_MOD_GRANT_YIELD" collection="COLLECTION_OWNER" effect="TRIGGER_PLAYER_GRANT_YIELD_ON_UNIT_CREATED">
+		<Argument name="Combat">true</Argument>
+		<Argument name="UnitTags">UNIT_CLASS_NAVAL</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="PercentCost">25</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_STATO_DEL_MAR_MARINE_FOOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">StatoDelMarMarineFood</Argument>
+		<String context="Description">LOC_TRADITION_STATO_DEL_MAR_MARINE_FOOD_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_STATO_DEL_MAR_MARINE_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">StatoDelMarMarineProduction</Argument>
+		<String context="Description">LOC_TRADITION_STATO_DEL_MAR_MARINE_PRODUCTION_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_STATO_DEL_MAR_MARINE_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">StatoDelMarMarineGold</Argument>
+		<String context="Description">LOC_TRADITION_STATO_DEL_MAR_MARINE_GOLD_DESCRIPTION</String>
+	</Modifier>	
+
+</GameEffects>

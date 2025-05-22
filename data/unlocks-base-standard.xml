@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_VENICE" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VENICE"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VENICE" Name="LOC_CIVILIZATION_VENICE_NAME" Description="LOC_UNLOCK_EXPLORATION_CIV_DESCRIPTION" Icon="CIVILIZATION_VENICE" CivUnlock="true"/>
+	</UnlockRewards>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_CIVILIZATION_IS_VENICE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_LEADER_IS_MACHIAVELLI" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_1_COASTAL_VENICE_SETTLEMENT" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row RequirementId="REQ_LEADER_IS_MACHIAVELLI" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_CIVILIZATION_IS_VENICE" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_PLAYER_HAS_1_COASTAL_VENICE_SETTLEMENT" RequirementType="REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS_AT"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_LEADER_IS_MACHIAVELLI" Name="LeaderType" Value="LEADER_MACHIAVELLI"/>
+		<Row RequirementId="REQ_CIVILIZATION_IS_VENICE" Name="CivilizationType" Value="CIVILIZATION_VENICE"/>
+		<Row RequirementId="REQ_PLAYER_HAS_1_COASTAL_VENICE_SETTLEMENT" Name="Tiles" Value="1"/>
+		<Row RequirementId="REQ_PLAYER_HAS_1_COASTAL_VENICE_SETTLEMENT" Name="Amount" Value="6"/>
+		<Row RequirementId="REQ_PLAYER_HAS_1_COASTAL_VENICE_SETTLEMENT" Name="SettlementLocationType" Value="SETTLEMENT_LOCATION_COASTAL"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_LEADER_IS_MACHIAVELLI" RequirementId="REQ_LEADER_IS_MACHIAVELLI"/>
+		<Row RequirementSetId="REQSET_CIVILIZATION_IS_VENICE" RequirementId="REQ_CIVILIZATION_IS_VENICE"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_1_COASTAL_VENICE_SETTLEMENT" RequirementId="REQ_PLAYER_HAS_1_COASTAL_VENICE_SETTLEMENT"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VENICE" RequirementSetId="REQSET_LEADER_IS_MACHIAVELLI" Description="LOC_UNLOCK_PLAY_AS_MACHIAVELLI_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_MACHIAVELLI_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VENICE" RequirementSetId="REQSET_PLAYER_HAS_1_COASTAL_VENICE_SETTLEMENT" Description="LOC_UNLOCK_PORT_SETTLEMENTS_VENICE_DESCRIPTION" Tooltip="LOC_UNLOCK_PORT_SETTLEMENTS_VENICE_TOOLTIP" NarrativeText="LOC_UNLOCK_PORT_SETTLEMENTS_VENICE_NARRATIVE"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_FRENCH_EMPIRE" RequirementSetId="REQSET_CIVILIZATION_IS_VENICE" Description="LOC_UNLOCK_PLAY_AS_VENICE_FRENCH_EMPIRE_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_VENICE_FRENCH_EMPIRE_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_PRUSSIA" RequirementSetId="REQSET_CIVILIZATION_IS_VENICE" Description="LOC_UNLOCK_PLAY_AS_VENICE_PRUSSIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_VENICE_PRUSSIA_TOOLTIP"/>		
+
+	</UnlockRequirements>
+
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_VENICE" ConfigurationValue="CIVILIZATION_VENICE"/>
+	</UnlockConfigurationValues>
+</Database>

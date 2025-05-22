@@ -1,0 +1,15 @@
+<Database>
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="BRENTA" CivilizationType="CIVILIZATION_VENICE"/>
+		<Row NamedRiverType="PIAVE" CivilizationType="CIVILIZATION_VENICE"/>
+		<Row NamedRiverType="ADIGE" CivilizationType="CIVILIZATION_VENICE"/>
+		<Row NamedRiverType="BACCHIGLIONE" CivilizationType="CIVILIZATION_VENICE"/>
+	</NamedRiverCivilizations>
+	<NamedRivers>
+		<Row NamedRiverType="BRENTA" Name="LOC_RIVER_BRENTA_NAME"/>
+		<Row NamedRiverType="PIAVE" Name="LOC_RIVER_PIAVE_NAME"/>
+		<Row NamedRiverType="ADIGE" Name="LOC_RIVER_ADIGE_NAME"/>
+		<Row NamedRiverType="BACCHIGLIONE" Name="LOC_RIVER_BACCHIGLIONE_NAME"/>
+	</NamedRivers>
+
+</Database>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="rogues-civ-venice" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>Rogue's Civs - Venice (Exploration)</Name>
+		<Description>Adds Venice as a playable civilization in the Exploration Age.</Description>
+		<Authors>RogueAustralian</Authors>
+		<Version>0.11</Version>
+		<AffectsSavedGames>1</AffectsSavedGames>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="carthage-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<ModInUse>carthage</ModInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="rogues-civ-venice" scope="game" criteria="always">
+			<Actions>
+				<ImportFiles>
+                    <Item>assets/icon/venice.png</Item>
+                    <Item>assets/icon/cult_venice.png</Item>
+                    <Item>assets/icon/civ_sym_venice</Item>
+					<Item>assets/icon/civ_line_venice</Item>
+				</ImportFiles>
+				<UpdateIcons>
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/named-places.xml</Item>
+					<Item>data/progression-trees-culture-unique.xml</Item>
+					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
+					<Item>data/traditions.xml</Item> 					<!-- will return to this -->
+					<Item>data/traditions-gameeffects.xml</Item>		<!-- will return to this -->
+					<Item>data/unlocks-base-standard.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>			<!-- will return to this -->
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/AttributesText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-main-venice" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-antiquity.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-persist-venice" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-main-venice" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/citizen-names.xml</Item>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/constructibles-no-persist.xml</Item>
+					<Item>data/loading-info-exploration.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item> <!-- We'll get back to this -->
+					<Item>data/units.xml</Item>
+					<!-- <Item>data/units-gameeffects.xml</Item> -->
+					<Item>data/AI_Exploration.xml</Item>
+					<Item>data/metaprogression-venice.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-main-venice-carthage" scope="game" criteria="carthage-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-carthage.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-venice-shell" scope="shell" criteria="always">
+			<Actions>
+				<ImportFiles>
+                    <Item>assets/icon/venice.png</Item>
+                    <Item>assets/icon/cult_venice.png</Item>
+                    <Item>assets/icon/civ_sym_venice</Item>
+					<Item>assets/icon/civ_line_venice</Item>
+				</ImportFiles>
+				<UpdateIcons>
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+					<Item>config/config-carthage.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>			<!-- will return to this -->
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/AttributesText.xml</Item>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+</Mod>

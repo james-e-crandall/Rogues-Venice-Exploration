@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- VENICE-->
+		<Row Tag="LOC_CITIZEN_VENICE_MALE_1">
+			<Text>Giovanni</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_MALE_2">
+			<Text>Pietro</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_MALE_3">
+			<Text>Marco</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_MALE_4">
+			<Text>Andrea</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_MALE_5">
+			<Text>Giuseppe</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_MALE_6">
+			<Text>Luciano</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_MALE_7">
+			<Text>Armando</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_MALE_8">
+			<Text>Antonio</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_MALE_9">
+			<Text>Fabiano</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_MALE_10">
+			<Text>Lorenzo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_FEMALE_1">
+			<Text>Federica</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_FEMALE_2">
+			<Text>Elena</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_FEMALE_3">
+			<Text>Chiara</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_FEMALE_4">
+			<Text>Martina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_FEMALE_5">
+			<Text>Valeria</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_FEMALE_6">
+			<Text>Alessia</Text>
+
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_FEMALE_7">
+			<Text>Valentina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_FEMALE_8">
+			<Text>Lucrezia</Text>
+
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_FEMALE_9">
+			<Text>Isabella</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_VENICE_FEMALE_10">
+			<Text>Silvana </Text>
+		</Row>
+	</EnglishText>
+</Database>

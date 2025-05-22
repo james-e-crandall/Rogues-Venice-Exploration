@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_VENICE" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_VENICE" Kind="KIND_CIVILIZATION"/>
+	</Types>
+	<LegacyCivilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_VENICE" Name="LOC_CIVILIZATION_VENICE_NAME" FullName="LOC_CIVILIZATION_VENICE_FULLNAME" Adjective="LOC_CIVILIZATION_VENICE_ADJECTIVE" Age="AGE_EXPLORATION"/>
+	</LegacyCivilizations>
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_VENICE" TraitType="TRAIT_VENICE"/>
+	</LegacyCivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_VENICE" InternalOnly="true"/>
+	</Traits>
+	<LegacyLeaderCivPriorities>
+		<Row Leader="LEADER_MACHIAVELLI" CivilizationType="CIVILIZATION_VENICE"/>
+	</LegacyLeaderCivPriorities>
+</Database>

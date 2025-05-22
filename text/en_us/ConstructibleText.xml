@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Civ Unique Improvements-->
+		<Row Tag="LOC_IMPROVEMENT_BACINO_NAME">
+			<Text>Bacino</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_BACINO_DESCRIPTION">
+			<Text>+3 [icon:YIELD_DIPLOMACY] Influence. +1 [icon:YIELD_GOLD] Gold and +1 [icon:YIELD_CULTURE] Culture for each adjacent Coastal tile. Must be placed adjacent to a Coastal tile and not adjacent to another Bacino. Venetian Unique Improvement. Ageless</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_BACINO_TOOLTIP">
+			<Text></Text>
+		</Row>
+	</EnglishText>
+</Database>

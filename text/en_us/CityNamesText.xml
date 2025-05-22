@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--VENICE-->
+		<Row Tag="LOC_CITY_NAME_VENICE1">
+			<Text>Venezia</Text>
+		</Row>
+		
+		<Row Tag="LOC_CITY_NAME_VENICE2">
+			<Text>Corfu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE3">
+			<Text>Ragusa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE4">
+			<Text>Negroponti</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE5">
+			<Text>Nicosia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE6">
+			<Text>San Marco</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE7">	
+			<Text>San Zaccaria</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE8">
+			<Text>San Polo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE9">
+			<Text>Rialto</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE10">
+			<Text>San Giovanni e Paolo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE11">
+			<Text>San Sebastiano</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE12">
+			<Text>Cannaregio</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE13">
+			<Text>Castello</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_VENICE14">
+			<Text>San Polo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE15">
+
+			<Text>Santa Croce</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE16">
+			<Text>Murano</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE17">
+
+			<Text>Burano</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE18">
+			<Text>Torcello</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE19">
+
+			<Text>Lido</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE20">
+			<Text>Chioggia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE21">
+
+			<Text>Malamocco</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENICE22">
+			<Text>Candia</Text>
+		</Row>
+	</EnglishText>
+
+</Database>

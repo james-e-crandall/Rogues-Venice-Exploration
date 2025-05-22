@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_VENICE">
+			<Text>In the lagoon, the Venetians made their stand on the world stage. The descendants of refugees fleeing the mainland, they built elaborate canals and foundations upon the waves, cultivated trade and diplomacy, and raised a magnificent city centered around the Doge's Palace, where the Great Council convened. When powerful empires sought to dominate the Serenissima, they fought battle after battle, by sea and by cunning, to preserve their independence. And though they lost their vast Stato da Mar, their spirit and city remain</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_VO_VENICE">
+			<Text>The tides rise, and fall, but Venice endures. Upon the lagoon, a legacy of trade, cunning, and defiance will be forged.</Text>
+		</Row>
+	</EnglishText>
+</Database>

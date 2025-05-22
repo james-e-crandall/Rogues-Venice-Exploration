@@ -1,0 +1,90 @@
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_VENICE_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Kinds>
+		<InsertOrIgnore KIND="KIND_TRAIT"/>
+	</Kinds>
+	<Civilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_VENICE" Name="LOC_CIVILIZATION_VENICE_NAME" FullName="LOC_CIVILIZATION_VENICE_FULLNAME" Description="LOC_CIVILIZATION_VENICE_DESCRIPTION" Adjective="LOC_CIVILIZATION_VENICE_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_EX_VENICE" CapitalName="LOC_CITY_NAME_VENICE1" RandomCityNameDepth="10"/>
+	</Civilizations>
+	<Traits>
+		<!--Civ Traits-->
+		<Row TraitType="TRAIT_VENICE_ABILITY" Name="LOC_TRAIT_VENICE_ABILITY_NAME" Description="LOC_TRAIT_VENICE_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_VENICE"/>
+		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="MOD_TOWN_EXTRA_PRODUCTION_VENICE"/>
+		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="MOD_TOWN_EXTRA_PRODUCTION_VENICE_DISTANT"/>
+		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="TRAIT_MOD_VENICE_CITY_HALL_HAPPINESS"/>
+		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="MOD_VENICE_FORBID_CITIES_FROM_TOWNS"/>
+		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="TRAIT_MOD_PATRISIATO_POP"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_VENICE" TraitType="TRAIT_EXPLORATION_CIV"/>
+
+		<Row CivilizationType="CIVILIZATION_VENICE" TraitType="TRAIT_VENICE"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" TraitType="TRAIT_VENICE_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" TraitType="TRAIT_ATTRIBUTE_POLITICAL"/>
+	</CivilizationTraits>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_VENICE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_VENICE" RequirementId="REQ_PLAYER_HAS_TRAIT_VENICE"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_VENICE" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_VENICE" Name="TraitType" Value="TRAIT_VENICE"/>
+	</RequirementArguments>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_MACHIAVELLI" Civilization="CIVILIZATION_VENICE" Priority="4"/>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!--VENICE-->
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE1"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE2"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE3"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE4"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE5"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE6"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE7"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE8"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE9"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE10"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE11"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE12"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE13"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE14"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE15"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE16"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE17"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE18"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE19"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE20"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE21"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CityName="LOC_CITY_NAME_VENICE22"/>
+	</CityNames>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_VENICE" TerrainType="TERRAIN_COAST" Score="30"/>
+	</StartBiasTerrains>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_VENICE" BuildingCulture="BUILDING_CULTURE_NAM"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" BuildingCulture="EXP_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_VENICE" UnitCulture="NAmer"/>
+	</VisArt_CivilizationUnitCultures>
+
+	<EndGameMovies>
+		<!--
+		<Row CivilizationType="CIVILIZATION_VENICE" VictoryType="MOVIE_VICTORY_EXPLORATION_SCIENCE" Priority="200" MovieType="MOVIE_VICTORY_EXPLORATION_CULTURE" />
+		-->
+	</EndGameMovies>
+</Database>

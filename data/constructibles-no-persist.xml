@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Constructible_Adjacencies>
+		<!-- Civ Abilities -->
+		<Row ConstructibleType="BUILDING_PALACE" YieldChangeId="VeniceLagunaProtettaProduction" RequiresActivation="true"/>
+	</Constructible_Adjacencies>
+	<Adjacency_YieldChanges>
+		<!-- Civ Abilities -->
+		<Row ID="VeniceLagunaProtettaProduction" YieldType="YIELD_PRODUCTION" YieldChange="3" TilesRequired="1" AdjacentTerrain="TERRAIN_COAST"/>
+	</Adjacency_YieldChanges>
+</Database>
