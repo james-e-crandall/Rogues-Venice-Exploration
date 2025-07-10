@@ -6,7 +6,7 @@
 	<!-- Venice -->
 	<Modifier id="LAGUNA_PROTETTA_MOD_ADJUST_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST/">
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST"/>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
 		<Argument name="Amount">3</Argument>
