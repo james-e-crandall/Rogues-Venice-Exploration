@@ -4,22 +4,24 @@
 		<!-- Venice -->
 		<Row>
 			<ID>ICON_CIVILIZATION_VENICE</ID>
-			<Path>fs://game/civ_sym_venice</Path>
+			<Context>DEFAULT</Context>
+			<Path>fs://game/rogues-civ-venice/icons/civ_sym_venice</Path>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_VENICE</ID>
-			<Path>fs://game/civ_sym_venice</Path>
+			<Context>DEFAULT</Context>
+			<Path>fs://game/rogues-civ-venice/icons/civ_sym_venice</Path>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_VENICE</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/lsbg_venice_1080</Path>
+			<Path>fs://game/rogues-civ-venice/icons/lsbg_venice_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_VENICE</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/lsbg_venice_720</Path>
+			<Path>fs://game/rogues-civ-venice/icons/lsbg_venice_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
 		<Row>
