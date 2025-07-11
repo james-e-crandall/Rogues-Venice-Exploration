@@ -42,11 +42,6 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="rogue-venice-carthage-shell" scope="shell" criteria="carthage-current">
-				<UpdateDatabase>
-					<Item>carthage/config/config-carthage.xml</Item>
-				</UpdateDatabase>
-		</ActionGroup>
 		<!-- standard -->
 		<ActionGroup id="rogues-civ-venice" scope="game" criteria="always">
 			<Actions>
@@ -136,6 +131,7 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>config/config-carthage.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>
