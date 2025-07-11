@@ -16,15 +16,10 @@
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_VENICE"/>
-		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="MOD_TOWN_EXTRA_PRODUCTION_VENICE"/>
-		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="MOD_TOWN_EXTRA_PRODUCTION_VENICE_DISTANT"/>
-		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="TRAIT_MOD_VENICE_CITY_HALL_HAPPINESS"/>
-		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="MOD_VENICE_FORBID_CITIES_FROM_TOWNS"/>
-		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="TRAIT_MOD_PATRISIATO_POP"/>
+		<Row TraitType="TRAIT_VENICE_ABILITY" ModifierId="MOD_VENICE_TREASURE_FLEET_GOLD"/>
 	</TraitModifiers>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_VENICE" TraitType="TRAIT_EXPLORATION_CIV"/>
-
 		<Row CivilizationType="CIVILIZATION_VENICE" TraitType="TRAIT_VENICE"/>
 		<Row CivilizationType="CIVILIZATION_VENICE" TraitType="TRAIT_VENICE_ABILITY"/>
 		<Row CivilizationType="CIVILIZATION_VENICE" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
@@ -75,16 +70,14 @@
 		<Row CivilizationType="CIVILIZATION_VENICE" TerrainType="TERRAIN_COAST" Score="30"/>
 	</StartBiasTerrains>
 	<VisArt_CivilizationBuildingCultures>
-		<Row CivilizationType="CIVILIZATION_VENICE" BuildingCulture="BUILDING_CULTURE_NAM"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" BuildingCulture="BUILDING_CULTURE_MED"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" BuildingCulture="ANT_STONE"/>
 		<Row CivilizationType="CIVILIZATION_VENICE" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" BuildingCulture="MOD_STONE"/>
+
 	</VisArt_CivilizationBuildingCultures>
 	<VisArt_CivilizationUnitCultures>
-		<Row CivilizationType="CIVILIZATION_VENICE" UnitCulture="NAmer"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" UnitCulture="Euro"/>
 	</VisArt_CivilizationUnitCultures>
 
-	<EndGameMovies>
-		<!--
-		<Row CivilizationType="CIVILIZATION_VENICE" VictoryType="MOVIE_VICTORY_EXPLORATION_SCIENCE" Priority="200" MovieType="MOVIE_VICTORY_EXPLORATION_CULTURE" />
-		-->
-	</EndGameMovies>
 </Database>

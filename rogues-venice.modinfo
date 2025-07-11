@@ -52,8 +52,10 @@
 			<Actions>
 				<ImportFiles>
 					<Item>assets/icon/civ_sym_venice</Item>
-                    <Item>assets/icon/civ_sym_venice.png</Item>
-                    <Item>assets/icon/cult_venice.png</Item>
+                    <Item>assets/icon/civ_sym_venice.png</Item>              
+					<Item>assets/icon/cult_venice.png</Item>
+					<Item>assets/icon/lsbg_venice_720</Item>
+					<Item>assets/icon/lsbg_venice_1080</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -123,10 +125,11 @@
 		<ActionGroup id="rogue-civ-venice-shell" scope="shell" criteria="always">
 			<Actions>
 				<ImportFiles>
-                    <Item>assets/icon/venice.png</Item>
-                    <Item>assets/icon/cult_venice.png</Item>
-                    <Item>assets/icon/civ_sym_venice</Item>
-					<Item>assets/icon/civ_line_venice</Item>
+					<Item>assets/icon/civ_sym_venice</Item>
+                    <Item>assets/icon/civ_sym_venice.png</Item>              
+					<Item>assets/icon/cult_venice.png</Item>
+					<Item>assets/icon/lsbg_venice_720</Item>
+					<Item>assets/icon/lsbg_venice_1080</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
