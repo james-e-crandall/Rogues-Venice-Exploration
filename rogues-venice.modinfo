@@ -25,24 +25,24 @@
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
 		<Criteria id="carthage-current">
 			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
 			<ModInUse>carthage</ModInUse>
 		</Criteria>
-		<Criteria id="always">
-			<AlwaysMet></AlwaysMet>
-		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
-		<ActionGroup id="rogue-civ-main-venice-carthage" scope="game" criteria="carthage-current">
+		<ActionGroup id="rogue-venice-carthage" scope="game" criteria="carthage-current">
 			<Actions>
 				<UpdateDatabase>
 					<Item>carthage/unlocks-carthage.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="rogue-carthage-shell" scope="shell" criteria="carthage-current">
+		<ActionGroup id="rogue-venice-carthage-shell" scope="shell" criteria="carthage-current">
 				<UpdateDatabase>
 					<Item>carthage/config/config-carthage.xml</Item>
 				</UpdateDatabase>
