@@ -7,41 +7,31 @@
 
 	<!-- NODE_CIVIC_EX_VENICE_MAESTRIA_LAGUNARE -->
 	<!-- TRADITION_LAGUNA_PROTETTA -->
-	<Modifier id="LAGUNA_PROTETTA_MOD_ADJUST_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+	<Modifier id="LAGUNA_PROTETTA_MOD_ADJUST_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST"/>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
 		<Argument name="Amount">3</Argument>
 		<Argument name="Tooltip">LOC_TRADITION_LAGUNA_PROTETTA_NAME</Argument>
 		<String context="Description">LOC_TRADITION_LAGUNA_PROTETTA_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- NODE_CIVIC_EX_VENICE_ARTIGIANATO -->
-	<Modifier id="FORNA_DE_MURANO_MOD_CULTURE_BUILDING_PRODUCTION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+	<Modifier id="FORNA_DE_MURANO_MOD_TRADE_BUILDING_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="Amount">2</Argument>
-		<Argument name="Tag">CULTURE</Argument>
-
+		<Argument name="Tag">TRADE</Argument>
 		<String context="Description">LOC_TRADITION_FORNA_DE_MURANO_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- NODE_CIVIC_EX_VENICE_TRADIZIONE_DEGLI_ARSENALOTTI -->
-	<Modifier id="LAGUNA_PROTETTA_MOD_ADJUST_PRODUCTION_2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
+	<Modifier id="LAGUNA_PROTETTA_MOD__UNIT_PURCHASE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_UNIT_PURCHASE_EFFICIENCY">
 		<Argument name="Apply">Rate</Argument>
-		<Argument name="Percent">30</Argument>
+		<Argument name="Percent">25</Argument>
 		<Argument name="UnitType">UNIT_CLASS_NAVAL</Argument>
 		<Argument name="Tooltip">LOC_TRADITION_COSTRUZIONE_NAVALE_ACCELERATA_NAME</Argument>
 		<String context="Description">LOC_TRADITION_COSTRUZIONE_NAVALE_ACCELERATA_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="REGIA_MARINA_MOD_ADJUST_COMMAND_RADIUS" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_COMMAND_RADIUS">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TYPE_MATCHES">
-				<Argument name="UnitType">UNIT_FLEET_COMMANDER</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Amount">1</Argument>
 	</Modifier>
 
 	<!-- NODE_CIVIC_EX_VENICE_STATO_DEL_MAR -->

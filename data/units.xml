@@ -2,37 +2,61 @@
 <Database>
 	<Types>
 		<!--Civ Unique Civilian-->
-		<Row Type="UNIT_PATRISIATO" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TJATY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TJATY_AMHOSE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TJATY_PASER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TJATY_RAMOSE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TJATY_USERAMEN" Kind="KIND_UNIT"/>
+
+		<Row Type="UNIT_LOGIOS_ASPASIA" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_LOGIOS_HYPATIA" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_LOGIOS_SOCRATES" Kind="KIND_UNIT"/>
+
+		<Row Type="UNIT_SHI_DAFU_HAN_FEI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SHI_DAFU_MOZI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SHI_DAFU_SHANG_YANG" Kind="KIND_UNIT"/>
 	</Types>
 	<Units>
-		<Row UnitType="UNIT_PATRISIATO" Name="LOC_UNIT_PATRISIATO_NAME" Description="LOC_UNIT_PATRISIATO_DESCRIPTION" BaseSightRange="1" BaseMoves="3" PrereqPopulation="5" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" FoundCity="true" CostProgressionModel="COST_PROGRESSION_NUM_SETTLEMENTS" CostProgressionParam1="20" TraitType="TRAIT_VENICE"/>
+		<Row UnitType="UNIT_TJATY" Name="LOC_UNIT_TJATY_NAME" Description="LOC_UNIT_TJATY_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EGYPT"/>
+		<Row UnitType="UNIT_TJATY_AMHOSE" Name="LOC_GREAT_PERSON_INDIVIDUAL_TJATY_AMHOSE_NAME" Description="LOC_UNIT_TJATY_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EGYPT" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_TJATY_PASER" Name="LOC_GREAT_PERSON_INDIVIDUAL_TJATY_PASER_NAME" Description="LOC_UNIT_TJATY_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EGYPT" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_TJATY_RAMOSE" Name="LOC_GREAT_PERSON_INDIVIDUAL_TJATY_RAMOSE_NAME" Description="LOC_UNIT_TJATY_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EGYPT" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_TJATY_USERAMEN" Name="LOC_GREAT_PERSON_INDIVIDUAL_TJATY_USERAMEN_NAME" Description="LOC_UNIT_TJATY_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EGYPT" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_LOGIOS_ASPASIA" Name="LOC_GREAT_PERSON_INDIVIDUAL_LOGIOS_ASPASIA_NAME" Description="LOC_UNIT_LOGIOS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GREECE" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_LOGIOS_HYPATIA" Name="LOC_GREAT_PERSON_INDIVIDUAL_LOGIOS_HYPATIA_NAME" Description="LOC_UNIT_LOGIOS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GREECE" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_LOGIOS_SOCRATES" Name="LOC_GREAT_PERSON_INDIVIDUAL_LOGIOS_SOCRATES_NAME" Description="LOC_UNIT_LOGIOS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GREECE" CanTrain="false" CanPurchase="false"/>
+
+		<Row UnitType="UNIT_SHI_DAFU_HAN_FEI" Name="LOC_GREAT_PERSON_INDIVIDUAL_SHI_DAFU_HAN_FEI_NAME" Description="LOC_UNIT_SHI_DAFU_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_HAN" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_SHI_DAFU_MOZI" Name="LOC_GREAT_PERSON_INDIVIDUAL_SHI_DAFU_MOZI_NAME" Description="LOC_UNIT_SHI_DAFU_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_HAN" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_SHI_DAFU_SHANG_YANG" Name="LOC_GREAT_PERSON_INDIVIDUAL_SHI_DAFU_SHANG_YANG_NAME" Description="LOC_UNIT_SHI_DAFU_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_HAN" CanTrain="false" CanPurchase="false"/>
+
+
 	</Units>
 	<Unit_Stats>
 	</Unit_Stats>
 	<Unit_Costs>
-		<Row UnitType="UNIT_PATRISIATO" YieldType="YIELD_PRODUCTION" Cost="70"/>
+
 	</Unit_Costs>
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_PATRISIATO" ReplacesUnitType="UNIT_SETTLER"/>
+
 	</UnitReplaces>
 	<Tags>
 		<!--Civ Unique Civilian-->
-		<Row Tag="UNIT_CLASS_PATRISIATO" Category="UNIT_CLASS"/>
+
 	</Tags>
 	<TypeTags>
 		<!--Civ Unique Civilian-->
-		<Row Type="UNIT_PATRISIATO" Tag="UNIT_CLASS_CREATE_TOWN"/>
-		<Row Type="UNIT_PATRISIATO" Tag="UNIT_CLASS_PATRISIATO"/>
+
 	</TypeTags>
 	<UnitClass_Abilities>
 	</UnitClass_Abilities>
 	<UnitAbilities>
 		<!--Unique-->
-		<Row UnitAbilityType="ABILITY_PATRISIATO" Name="LOC_UNIT_PATRISIATO_NAME" Description="LOC_ABILITY_PATRISIATO_DESCRIPTION"/>
+
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 	</UnitAbilityModifiers>
 	<Unit_Advisories>
-		<Row UnitType="UNIT_PATRISIATO" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
+
 	</Unit_Advisories>
 </Database>

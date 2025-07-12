@@ -10,7 +10,6 @@
 	<CivilizationItems>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" Type="TRAIT_VENICE_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_VENICE_ABILITY_NAME" Description="LOC_TRAIT_VENICE_ABILITY_DESCRIPTION"/>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" Type="IMPROVEMENT_BACINO" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_BACINO_NAME" Description="LOC_IMPROVEMENT_BACINO_DESCRIPTION"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" Type="UNIT_PATRISIATO" Kind="KIND_UNIT" Name="LOC_UNIT_PATRISIATO_NAME" Description="LOC_UNIT_PATRISIATO_DESCRIPTION"/>
 	</CivilizationItems>
 
 	<CivilizationTags>

@@ -76,32 +76,22 @@
 			<Text>Laguna Protetta</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_LAGUNA_PROTETTA_DESCRIPTION">
-			<Text>Coastal Settlements receive +3 [icon:YIELD_PRODUCTION] production.</Text>
+			<Text>Coastal Settlements receive +3 [icon:YIELD_CULTURE] Culture.</Text>
 		</Row>
 
-		
 		<Row Tag="LOC_TRADITION_FORNA_DE_MURANO_NAME">
 			<Text>Fornace di Murano</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_FORNA_DE_MURANO_DESCRIPTION">
 
-			<Text>Culture buildings receive +2 [icon:YIELD_PRODUCTION] production.</Text>
+			<Text>Trade buildings receive +2 [icon:YIELD_GOLD] Gold.</Text>
 		</Row>
-
 
 		<Row Tag="LOC_TRADITION_COSTRUZIONE_NAVALE_ACCELERATA_NAME">
 			<Text>Costruzione Navale Accellerata</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_COSTRUZIONE_NAVALE_ACCELERATA_DESCRIPTION">
-			<Text>+30% [icon:YIELD_PRODUCTION] Production for Naval Units.</Text>
-		</Row>
-
-		
-		<Row Tag="LOC_TRADITION_REGIA_MARINA_NAME">
-			<Text>Regia Marina</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_REGIA_MARINA_DESCRIPTION">
-			<Text>Fleet commanders get +1 command radius.</Text>
+			<Text>+25%[icon:YIELD_GOLD] Gold towards purchasing Naval Units.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_POTENZIA_VENEZIA_NAME">

@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<Row Tag="LOC_UNIT_PATRISIATO_NAME">
-			<Text>Patrisiato</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_PATRISIATO_DESCRIPTION">
-			<Text>Venice Unique Civilian Unit. Founded settlements adjacent to Coast receive +2 population. Receives +1 embarked movement.</Text>
-		</Row>
+
 	</EnglishText>
 </Database>
