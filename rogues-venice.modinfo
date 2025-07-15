@@ -28,10 +28,17 @@
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
+		<!-- Optional compatability -->
 		<Criteria id="carthage-current">
 			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
 			<ModInUse>carthage</ModInUse>
 		</Criteria>
+        <Criteria all="true" id="ged-ynamp-enable">
+            <ModInUse>ged-ynamp</ModInUse>
+        </Criteria>
+        <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
+            <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
@@ -40,6 +47,23 @@
 				<UpdateDatabase>
 					<Item>carthage/unlocks-carthage.xml</Item>
 				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
+            <Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
+                <UpdateDatabase>
+					<Item>ynamp/data/greatest-earth.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="izica-unit-portrait-visual-remaps" scope="game" criteria="izica-unit-portrait-visual-remaps-enable">
+			<Actions>
+				<UIScripts>
+					<Item>ui/game.js</Item>
+				</UIScripts>
 			</Actions>
 		</ActionGroup>
 		<!-- standard -->
@@ -51,6 +75,7 @@
 					<Item>assets/icon/cult_venice.png</Item>
 					<Item>assets/icon/lsbg_venice_720</Item>
 					<Item>assets/icon/lsbg_venice_1080</Item>
+					<Item>assets/icon/unitflag_doge.png</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -91,6 +116,7 @@
 				<UpdateText>
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
+							
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -107,12 +133,15 @@
 					<!-- <Item>data/units-gameeffects.xml</Item> -->
 					<Item>data/AI_Exploration.xml</Item>
 					<Item>data/metaprogression-venice.xml</Item>
+					<Item>data/greatpeople-gameeffects.xml</Item>
+					<Item>data/greatpeople.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CitizenNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
+					<Item>text/en_us/GreatPeopleText.xml</Item>	
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -125,6 +154,7 @@
 					<Item>assets/icon/cult_venice.png</Item>
 					<Item>assets/icon/lsbg_venice_720</Item>
 					<Item>assets/icon/lsbg_venice_1080</Item>
+					<Item>assets/icon/unitflag_doge.png</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -147,6 +177,7 @@
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
+					<Item>text/en_us/GreatPeopleText.xml</Item>	
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

@@ -34,7 +34,8 @@
 		<!--VENICE-->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VENICE_MAESTRIA_LAGUNARE" TargetKind="KIND_CONSTRUCTIBLE" TargetType="IMPROVEMENT_BACINO" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VENICE_MAESTRIA_LAGUNARE" TargetKind="KIND_TRADITION" TargetType="TRADITION_LAGUNA_PROTETTA" UnlockDepth="1"/>
-
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VENICE_MAESTRIA_LAGUNARE" TargetKind="KIND_UNIT" TargetType="UNIT_DOGE" UnlockDepth="1" />
+		
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VENICE_ARTIGIANATO" TargetKind="KIND_TRADITION" TargetType="TRADITION_FORNA_DE_MURANO" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VENICE_ARTIGIANATO" TargetKind="KIND_TRADITION" TargetType="TRADITION_COSTRUZIONE_NAVALE_ACCELERATA" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_VENICE_ARTIGIANATO" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_RELIC" UnlockDepth="2"/>

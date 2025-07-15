@@ -29,8 +29,8 @@
 			<Path>blp:impicon_fishing</Path>
 		</Row>
 		<Row>
-			<ID>UNIT_PATRISIATO</ID>
-			<Path>blp:unitflag_settler</Path>
+			<ID>UNIT_DOGE</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
 		</Row>
 	</IconDefinitions>
 	<IconAliases>
