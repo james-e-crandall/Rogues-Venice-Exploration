@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNIT_DOGE_NAME">
+			<Text>Doge (Doge di Venezia)</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DOGE_DESCRIPTION">
+			<Text>A Great Person with one charge. Can only be trained in the Capital, and the specific Doge received is random. Each Doge can only be received once. Cost increases per Doge trained.</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_NAME">
+			<Text>Orso Ipato</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_DESCRIPTION">
+			<Text>Create a Menagerie in a City. This Menagerie receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Menagerie.</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_LUDOVICO_MANIN_NAME">
+			<Text>Ludovico Manin</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_LUDOVICO_MANIN_DESCRIPTION">
+			<Text>Create a Menagerie in a City. This Menagerie receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Menagerie.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_LUDOVICO_MANIN_DESCRIPTION">
+			<Text>Activate on the Palace to add +3[icon:YIELD_CULTURE] Culture to the Building.</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_MOZI_DESCRIPTION">
+			<Text>Activate in the Capital to immediately add 1 Population.</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_FOSCARI_NAME">
+			<Text>Francesco Foscari</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ARETE_DESCRIPTION">
+			<Text>Activate on an Acropolis to grant 75[icon:YIELD_DIPLOMACY] Influence (On Standard Speed).</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_SABASTIANO_VENIER_NAME">
+			<Text>Sebastiano Venier</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ASPASIA_DESCRIPTION">
+			<Text>Activate on a Library to add +3[icon:YIELD_HAPPINESS] Happiness to the Building.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_BARTOLOMEO_GRADENIGO_NAME">
+			<Text>Bartolomeo Gradenigo</Text>
+		</Row>
+        <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_HYPATIA_DESCRIPTION">
+			<Text>Activate on a Library to add +3[icon:YIELD_SCIENCE] Science to the Building.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ENRICO_DANDOLO_NAME">
+			<Text>Enrico Dandolo </Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_MOROSINI_NAME">
+			<Text>Francesco Morosini</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_DOMENICO_II_CONTARINI_NAME">
+			<Text>Domenico II Contarini</Text>
+		</Row>
+
+
+
+
+
+
+
+
+    </EnglishText>
+</Database>
