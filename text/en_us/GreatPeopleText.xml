@@ -8,6 +8,11 @@
 			<Text>A Great Person with one charge. Can only be trained in the Capital, and the specific Doge received is random. Each Doge can only be received once. Cost increases per Doge trained.</Text>
 		</Row>
 
+		<Row Tag="LOC_DOGE_PALACE_SMALL_GOLD">
+			<Text>The Palace receives +3[icon:YIELD_GOLD] Gold.</Text>
+		</Row>
+
+
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_NAME">
 			<Text>Orso Ipato</Text>
 		</Row>
@@ -36,7 +41,7 @@
 			<Text>{LOC_DOGE_GUILDHALL}</Text>
 		</Row>
 		<Row Tag="LOC_DOGE_GUILDHALL">
-			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
+			<Text>Create a Guildhall in a City. This Guildhall receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Guildhall.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORDELAFO_FALIERO_NAME">
@@ -46,7 +51,7 @@
 			<Text>{LOC_DOGE_KILN}</Text>
 		</Row>
 		<Row Tag="LOC_DOGE_KILN">
-			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
+			<Text>Create a Kiln in a City. This Kiln receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Kiln.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_PIETRO_TRADONICO_NAME">
@@ -56,7 +61,7 @@
 			<Text>{LOC_DOGE_OBSERVATORY}</Text>
 		</Row>
 		<Row Tag="LOC_DOGE_OBSERVATORY">
-			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
+			<Text>Create a Observatory in a City. This Observatory receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Observatory.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_BARTOLOMEO_GRADENIGO_NAME">
@@ -66,7 +71,7 @@
 			<Text>{LOC_DOGE_TAVERN}</Text>
 		</Row>
 		<Row Tag="LOC_DOGE_TAVERN">
-			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
+			<Text>Create a Tavern in a City. This Tavern receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Tavern.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_DOMENICO_II_CONTARINI_NAME">
@@ -76,14 +81,14 @@
 			<Text>{LOC_DOGE_WHARF}</Text>
 		</Row>
 		<Row Tag="LOC_DOGE_WHARF">
-			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
+			<Text>Create a Wharf in a City. This Wharf receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Wharf.</Text>
 		</Row>
 
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_SABASTIANO_VENIER_NAME">
 			<Text>Sebastiano Venier</Text>
 		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ASPASIA_DESCRIPTION">
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_SABASTIANO_VENIER_DESCRIPTION">
 			<Text>{LOC_DOGE_FLEET_COMMANDER_PROMOTION}</Text>
 		</Row>
 		<Row Tag="LOC_DOGE_FLEET_COMMANDER_PROMOTION">
