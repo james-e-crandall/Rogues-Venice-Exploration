@@ -32,6 +32,52 @@
 			<ID>UNIT_DOGE</ID>
 			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
 		</Row>
+		<Row>
+			<ID>UNIT_DOGE_ORSO_IPATO</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_DOGE_FRANCESCO_FOSCARI</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_DOGE_LUDOVICO_MANIN</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_DOGE_ORDELAFO_FALIERO</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_DOGE_BARTOLOMEO_GRADENIGO</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_DOGE_PIETRO_TRADONICO</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_DOGE_PIETRO_TRADONICO</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_DOGE_DOMENICO_II_CONTARINI</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+
+		<Row>
+			<ID>UNIT_DOGE_SABASTIANO_VENIER</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_DOGE_FRANCESCO_MOROSINI</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_DOGE_ENRICO_DANDOLO</ID>
+			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>
+		</Row>
+
 	</IconDefinitions>
 	<IconAliases>
 	</IconAliases>

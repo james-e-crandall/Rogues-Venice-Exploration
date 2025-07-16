@@ -12,49 +12,71 @@
 			<Text>Orso Ipato</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_DESCRIPTION">
-			<Text>Create a Menagerie in a City. This Menagerie receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Menagerie.</Text>
+			<Text>{LOC_DOGE_BAZAAR}</Text>
 		</Row>
+		<Row Tag="LOC_DOGE_BAZAAR">
+			<Text>Create a Bazaar in a City. This Bazaar receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Bazaar.</Text>
+		</Row>
+
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_FOSCARI_NAME">
 			<Text>Francesco Foscari</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUA_DOGE_FRANCESCO_FOSCARI_DESCRIPTION">
-			<Text>Create a Menagerie in a City. This Menagerie receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Menagerie.</Text>
+			<Text>{LOC_DOGE_DUNGEON}</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_DUNGEON">
+			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_LUDOVICO_MANIN_NAME">
 			<Text>Ludovico Manin</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_LUDOVICO_MANIN_DESCRIPTION">
-			<Text>Create a Menagerie in a City. This Menagerie receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Menagerie.</Text>
+			<Text>{LOC_DOGE_GUILDHALL}</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_GUILDHALL">
+			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORDELAFO_FALIERO_NAME">
 			<Text>Ordelafo Faliero</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORDELAFO_FALIERO_DESCRIPTION">
-			<Text>Create a Menagerie in a City. This Menagerie receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Menagerie.</Text>
+			<Text>{LOC_DOGE_KILN}</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_KILN">
+			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_PIETRO_TRADONICO_NAME">
 			<Text>Pietro Tradonico</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_PIETRO_TRADONICO_DESCRIPTION">
-			<Text>Create a Menagerie in a City. This Menagerie receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Menagerie.</Text>
+			<Text>{LOC_DOGE_OBSERVATORY}</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_OBSERVATORY">
+			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_BARTOLOMEO_GRADENIGO_NAME">
 			<Text>Bartolomeo Gradenigo</Text>
 		</Row>
         <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_HYPATIA_DESCRIPTION">
-			<Text>Create a Menagerie in a City. This Menagerie receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Menagerie.</Text>
+			<Text>{LOC_DOGE_TAVERN}</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_TAVERN">
+			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_DOMENICO_II_CONTARINI_NAME">
 			<Text>Domenico II Contarini</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_DOMENICO_II_CONTARINI_DESCRIPTION">
-			<Text>Create a Menagerie in a City. This Menagerie receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Menagerie.</Text>
+			<Text>{LOC_DOGE_WHARF}</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_WHARF">
+			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
 		</Row>
 
 
@@ -62,14 +84,18 @@
 			<Text>Sebastiano Venier</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ASPASIA_DESCRIPTION">
+			<Text>{LOC_DOGE_FLEET_COMMANDER_PROMOTION}</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_FLEET_COMMANDER_PROMOTION">
 			<Text>Activate on an Fleet Commander to grant it 2 free Promotions.</Text>
 		</Row>
 
+		
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ENRICO_DANDOLO_NAME">
 			<Text>Enrico Dandolo </Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ENRICO_DANDOLO_FLEET_COMMANDER_NAME">
-			<Text>Despot of the Latins </Text>
+			<Text>Despot of the Latins</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ENRICO_DANDOLO_DESCRIPTION">
 			<Text> Activated on a Fleet Commander Unit to change its name to "Archangel of the Terror." Units within its Command Radius gain increased Combat Strength. </Text>
@@ -79,8 +105,12 @@
 			<Text>Francesco Morosini</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_MOROSINI_DESCRIPTION">
+			<Text>{LOC_DOGE_GRANT_FLEET_COMMANDER}</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_GRANT_FLEET_COMMANDER">
 			<Text>Creates a Fleet Commander in this City.</Text>
 		</Row>
+
 
     </EnglishText>
 </Database>

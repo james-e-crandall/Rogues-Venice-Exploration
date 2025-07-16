@@ -89,25 +89,18 @@
 		<String context="Summary">LOC_DOGE_WHARF_SMALL_FOOD</String>
 	</Modifier>
 
-	<Modifier id="GREATPERSON_FLEET_COMMANDER_PROMOTION" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+	<Modifier id="DOGE_FLEET_COMMANDER_PROMOTION" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
 		<Argument name="Amount">2</Argument>
+		<String context="Summary">LOC_DOGE_FLEET_COMMANDER_PROMOTION</String>
 	</Modifier>
 
-    <Modifier id="GREATPERSON_GRANT_FLEET_COMMANDER" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
-		<Argument name="UnitType">UNIT_FLEET_COMMANDER</Argument>
-		<Argument name="Amount">1</Argument>
-		<String context="Summary">LOC_GREATPERSON_GRANT_FLEET_COMMANDER</String>
-	</Modifier>
-
-	<!-- ENRICO_DANDOLO -->
-	<Modifier id="GREATPERSON_RENAME_COMMANDER_ENRICO_DANDOLO" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">
+	<Modifier id="DOGE_RENAME_COMMANDER_ENRICO_DANDOLO" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">
 		<Argument name="Name">LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ENRICO_DANDOLO_FLEET_COMMANDER_NAME</Argument>
 	</Modifier>
-	<Modifier id="GREATPERSON_COMMANDER_LAND_CLAIM_ENRICO_DANDOLO" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+	<Modifier id="DOGE_COMMANDER_LAND_CLAIM_ENRICO_DANDOLO" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<Argument name="AbilityType">ABILITY_ENRICO_DANDOLO</Argument>
 	</Modifier>
-
-	<Modifier id="ENRICO_DANDOLO_COMMANDER_ABILITY" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_ABILITY_CHARGE">
+	<Modifier id="MOD_ENRICO_DANDOLO_COMMANDER_ABILITY" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_ABILITY_CHARGE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_COMMANDER_HAS_X_PROMOTIONS">
 				<Argument name="PromotionsOnly">true</Argument>
@@ -117,6 +110,12 @@
 		</SubjectRequirements>
 		<Argument name="ChargedAbilityType">CHARGED_ABILITY_LAND_CLAIM</Argument>
 		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+    <Modifier id="DOGE_GRANT_FLEET_COMMANDER" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
+		<Argument name="UnitType">UNIT_FLEET_COMMANDER</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Summary">LOC_DOGE_GRANT_FLEET_COMMANDER</String>
 	</Modifier>
 
 </GameEffects>
