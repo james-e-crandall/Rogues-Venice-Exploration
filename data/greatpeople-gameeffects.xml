@@ -107,7 +107,15 @@
 	</Modifier>
 	<Modifier id="DOGE_COMMANDER_LAND_CLAIM_ENRICO_DANDOLO" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<Argument name="AbilityType">ABILITY_ENRICO_DANDOLO</Argument>
+		<String context="Summary">LOC_DOGE_LAND_CLAIM</String>
 	</Modifier>
+	<Modifier id="DOGE_3_MOUNTED" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_GRANT_UNIT" run-once="true" permanent="true">
+		<Argument name="Amount">3</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_NAVAL</Argument>
+		<Argument name="DomainType">DOMAIN_SEA</Argument>
+		<String context="Summary">LOC_DOGE_3_MOUNTED</String>
+	</Modifier>
+
 	<Modifier id="MOD_ENRICO_DANDOLO_COMMANDER_ABILITY" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_ABILITY_CHARGE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_COMMANDER_HAS_X_PROMOTIONS">
@@ -119,6 +127,8 @@
 		<Argument name="ChargedAbilityType">CHARGED_ABILITY_LAND_CLAIM</Argument>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
+
+
 
     <Modifier id="DOGE_GRANT_FLEET_COMMANDER" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
 		<Argument name="UnitType">UNIT_FLEET_COMMANDER</Argument>

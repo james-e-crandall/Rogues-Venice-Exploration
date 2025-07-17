@@ -13,6 +13,8 @@
 		</Row>
 
 
+
+
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_NAME">
 			<Text>Orso Ipato</Text>
 		</Row>
@@ -27,7 +29,7 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_FOSCARI_NAME">
 			<Text>Francesco Foscari</Text>
 		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUA_DOGE_FRANCESCO_FOSCARI_DESCRIPTION">
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_FOSCARI_DESCRIPTION">
 			<Text>{LOC_DOGE_DUNGEON}</Text>
 		</Row>
 		<Row Tag="LOC_DOGE_DUNGEON">
@@ -43,6 +45,8 @@
 		<Row Tag="LOC_DOGE_GUILDHALL">
 			<Text>Create a Guildhall in a City. This Guildhall receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Guildhall.</Text>
 		</Row>
+
+
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORDELAFO_FALIERO_NAME">
 			<Text>Ordelafo Faliero</Text>
@@ -64,10 +68,14 @@
 			<Text>Create a Observatory in a City. This Observatory receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Observatory.</Text>
 		</Row>
 
+ 
+
+
+
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_BARTOLOMEO_GRADENIGO_NAME">
 			<Text>Bartolomeo Gradenigo</Text>
 		</Row>
-        <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_HYPATIA_DESCRIPTION">
+        <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_BARTOLOMEO_GRADENIGO_DESCRIPTION">
 			<Text>{LOC_DOGE_TAVERN}</Text>
 		</Row>
 		<Row Tag="LOC_DOGE_TAVERN">
@@ -83,7 +91,6 @@
 		<Row Tag="LOC_DOGE_WHARF">
 			<Text>Create a Wharf in a City. This Wharf receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Wharf.</Text>
 		</Row>
-
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_SABASTIANO_VENIER_NAME">
 			<Text>Sebastiano Venier</Text>
@@ -103,9 +110,14 @@
 			<Text>Despot of the Latins</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ENRICO_DANDOLO_DESCRIPTION">
-			<Text> Activated on a Fleet Commander Unit to change its name to "Archangel of the Terror." Units within its Command Radius gain increased Combat Strength. </Text>
+			<Text>{LOC_DOGE_LAND_CLAIM}</Text>
 		</Row>
-
+		<Row Tag="LOC_DOGE_LAND_CLAIM">
+			<Text> Activated on a Fleet Commander Unit to change its name to "Despot of the Latins." Gains 1 charge to create a new Settlement for every 3 Levels it has.</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_3_MOUNTED">
+			<Text>Receive 3 Naval Units.</Text>
+		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_MOROSINI_NAME">
 			<Text>Francesco Morosini</Text>
 		</Row>
