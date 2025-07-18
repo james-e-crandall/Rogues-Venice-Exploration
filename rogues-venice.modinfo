@@ -73,9 +73,10 @@
 					<Item>assets/icon/civ_sym_venice</Item>
                     <Item>assets/icon/civ_sym_venice.png</Item>              
 					<Item>assets/icon/cult_venice.png</Item>
-					<Item>assets/icon/lsbg_venice_720</Item>
-					<Item>assets/icon/lsbg_venice_1080</Item>
+					<Item>assets/icon/lsbg_venice_720.png</Item>
+					<Item>assets/icon/lsbg_venice_1080.png</Item>
 					<Item>assets/icon/unitflag_doge.png</Item>
+					<Item>assets/icon/wondericon_venetial_arsenal.png</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -112,11 +113,13 @@
 				<UpdateDatabase>
 					<Item>data/constructibles.xml</Item>
 					<Item>data/constructibles-gameeffects.xml</Item>
+					<Item>data/wonders.xml</Item>
+					<Item>data/wonders-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
-							
+					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -155,6 +158,7 @@
 					<Item>assets/icon/lsbg_venice_720</Item>
 					<Item>assets/icon/lsbg_venice_1080</Item>
 					<Item>assets/icon/unitflag_doge.png</Item>
+					<Item>assets/icon/wondericon_venetial_arsenal.png</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>

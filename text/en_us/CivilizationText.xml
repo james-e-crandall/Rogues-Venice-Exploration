@@ -9,7 +9,7 @@
 			<Text>Can only have 1 City. Towns cannot use Convert to City. +100% [icon:YIELD_GOLD]Gold from Trade and Treasure Convoys..</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_VENICE_ABILITY_DESCRIPTION">
-			<Text>[BLIST][LI]Can only have 1 City. Towns cannot use [B]Convert to City[/B].[LI]+100% [icon:YIELD_GOLD]Gold from [B]Trade and Treasure Convoys[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Byrsa[/B].[/LIST]</Text>
+			<Text>[BLIST][LI]Can only have 1 City. Towns cannot use [B]Convert to City[/B].[LI]+100% [icon:YIELD_GOLD]Gold from [B]Trade and Treasure Convoys[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Venetian Arsenal[/B].[/LIST]</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_VENICE_DESCRIPTION">
 			<Text>+30%[icon:YIELD_PRODUCTION] Production from being the Venice's associated Wonder.</Text>

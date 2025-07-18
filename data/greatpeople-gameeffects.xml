@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<Modifier id="DOGE_PALACE_SMALL_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
-		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">4</Argument>
-		<String context="Summary">LOC_DOGE_PALACE_SMALL_GOLD</String>
-	</Modifier>
-
-
 	<Modifier id="DOGE_GRANT_BAZAAR" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
 		<Argument name="ConstructibleType">BUILDING_BAZAAR</Argument>
 		<String context="Summary">LOC_DOGE_BAZAAR</String>
@@ -97,6 +89,13 @@
 		<String context="Summary">LOC_DOGE_WHARF_SMALL_FOOD</String>
 	</Modifier>
 
+	<Modifier id="DOGE_2_NAVAL" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_GRANT_UNIT" run-once="true" permanent="true">
+		<Argument name="Amount">2</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_NAVAL</Argument>
+		<Argument name="DomainType">DOMAIN_SEA</Argument>
+		<String context="Summary">LOC_DOGE_3_MOUNTED</String>
+	</Modifier>
+
 	<Modifier id="DOGE_FLEET_COMMANDER_PROMOTION" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
 		<Argument name="Amount">2</Argument>
 		<String context="Summary">LOC_DOGE_FLEET_COMMANDER_PROMOTION</String>
@@ -109,26 +108,20 @@
 		<Argument name="AbilityType">ABILITY_ENRICO_DANDOLO</Argument>
 		<String context="Summary">LOC_DOGE_LAND_CLAIM</String>
 	</Modifier>
-	<Modifier id="DOGE_3_MOUNTED" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_GRANT_UNIT" run-once="true" permanent="true">
-		<Argument name="Amount">3</Argument>
-		<Argument name="UnitTag">UNIT_CLASS_NAVAL</Argument>
-		<Argument name="DomainType">DOMAIN_SEA</Argument>
-		<String context="Summary">LOC_DOGE_3_MOUNTED</String>
-	</Modifier>
-
-	<Modifier id="MOD_ENRICO_DANDOLO_COMMANDER_ABILITY" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_ABILITY_CHARGE">
+	<Modifier id="MOD_ENRICO_DANDOLO_LAND_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_COMMANDER_HAS_X_PROMOTIONS">
-				<Argument name="PromotionsOnly">true</Argument>
-				<Argument name="Amount">3</Argument>
-				<Argument name="OnPromotionInterval">true</Argument>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ChargedAbilityType">CHARGED_ABILITY_LAND_CLAIM</Argument>
-		<Argument name="Amount">1</Argument>
+		<Argument name="AbilityType">ABILITY_ENRICO_DANDOLO_LAND_UNITS</Argument>
 	</Modifier>
-
-
+	<Modifier id="MOD_ENRICO_DANDOLO_ENRICO_DANDOLO_LAND_UNITS" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_ABILITY_ENRICO_DANDOLO_LAND_UNITS_PREVIEW</String>
+		<String context="Description">LOC_ABILITY_ENRICO_DANDOLO_LAND_UNITS_DESCRIPTION</String>
+	</Modifier>
 
     <Modifier id="DOGE_GRANT_FLEET_COMMANDER" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
 		<Argument name="UnitType">UNIT_FLEET_COMMANDER</Argument>

@@ -10,6 +10,7 @@
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_NAVAL</Argument>
 			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
 		</SubjectRequirements>
 		<Argument name="Amount">1</Argument>
 		<String context="Description">MOD_TRADIZIONE_DEGLI_ARSENALOTTI_FLOTTA_VELOCE_DESCRIPTION</String>

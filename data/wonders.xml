@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Wonders -->
+		<Row Type="WONDER_VENETIAN_ARSENAL" Kind="KIND_CONSTRUCTIBLE"/>
+    </Types>
+	<Traits>
+	</Traits>
+	<TypeQuotes>
+		<!-- Wonders -->
+		<Row Type="WONDER_VENETIAN_ARSENAL" Quote="LOC_QUOTE_WONDER_VENETIAN_ARSENAL" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_VENETIAN_ARSENAL" QuoteAudio="VO_Quote_Venetian_Arsenal"/>
+    </TypeQuotes>
+	<Constructibles>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_VENETIAN_ARSENAL" Name="LOC_WONDER_VENETIAN_ARSENAL_NAME" Description="LOC_WONDER_VENETIAN_ARSENAL_DESCRIPTION" Tooltip="LOC_WONDER_VENETIAN_ARSENAL_TOOLTIP" ConstructibleClass="WONDER" Cost="475" Population="0" ImmuneDamage="true" Age="AGE_EXPLORATION" AdjacentTerrain="TERRAIN_COAST" RequiresUnlock="true" />
+    </Constructibles>
+    <Wonders>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_VENETIAN_ARSENAL" MaxWorldInstances="1" />    
+	</Wonders>
+	<Constructible_ValidDistricts>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_VENETIAN_ARSENAL" DistrictType="DISTRICT_WONDER"/>
+    </Constructible_ValidDistricts>
+	<Constructible_YieldChanges>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_VENETIAN_ARSENAL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+    </Constructible_YieldChanges>
+	<ConstructibleModifiers>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_VENETIAN_ARSENAL" ModifierId="MOD_WONDER_VENETIAN_ARSENAL_PRODUCTION_PER_CULTURE"/>
+		
+    </ConstructibleModifiers>
+    <Constructible_Advisories>
+		<Row ConstructibleType="WONDER_VENETIAN_ARSENAL" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+    </Constructible_Advisories>
+</Database>

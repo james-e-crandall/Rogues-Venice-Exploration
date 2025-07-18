@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_VENICE" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_VENICE" Subtitle="LOC_LOADING_VO_VENICE" Audio="VO_Loading_VENICE" BackgroundImageHigh="fs://game/rogues-civ-venice/icons/lsbg_venice_1080" BackgroundImageLow="fs://game/rogues-civ-venice/icons/lsbg_venice_720" ForegroundImage="fs://game/rogues-civ-venice/icons/civ_line_venice"/>
+		<Row CivilizationType="CIVILIZATION_VENICE" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_VENICE" Subtitle="LOC_LOADING_VO_VENICE" Audio="VO_Loading_VENICE" BackgroundImageHigh="fs://game/rogues-civ-venice/icons/lsbg_venice_1080.png" BackgroundImageLow="fs://game/rogues-civ-venice/icons/lsbg_venice_720.png" ForegroundImage="fs://game/rogues-civ-venice/icons/civ_line_venice.png"/>
 	</LoadingInfo_Civilizations>
 </Database>

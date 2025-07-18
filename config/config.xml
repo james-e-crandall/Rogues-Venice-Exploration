@@ -4,7 +4,7 @@
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" LeaderDomain="StandardLeaders" LeaderType="LEADER_MACHIAVELLI" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_VENICE_MACHIAVELLI_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE"/>
 	</LeaderCivilizationBias>
 	<Civilizations>
-		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" CivilizationName="LOC_CIVILIZATION_VENICE_NAME" CivilizationFullName="LOC_CIVILIZATION_VENICE_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_VENICE_DESCRIPTION" CivilizationIcon="civ_sym_shawnee.png"/>
+		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_VENICE" CivilizationName="LOC_CIVILIZATION_VENICE_NAME" CivilizationFullName="LOC_CIVILIZATION_VENICE_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_VENICE_DESCRIPTION" CivilizationIcon="civ_sym_venice.png"/>
 
 	</Civilizations>
 	<CivilizationItems>

@@ -24,11 +24,17 @@
 			<Path>fs://game/rogues-civ-venice/icons/lsbg_venice_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
+		<!-- Constructable -->
 		<Row>
 			<ID>IMPROVEMENT_BACINO</ID>
 			<Path>blp:impicon_fishing</Path>
 			<Context>DEFAULT</Context>
 		</Row>
+		<Row>
+			<ID>WONDER_VENETIAN_ARSENAL</ID>
+			<Path>fs://game/rogues-civ-venice/icons/wondericon_venetial_arsenal.png</Path>
+		</Row>
+		<!-- Unit -->
 		<Row>
 			<ID>UNIT_DOGE</ID>
 			<Path>fs://game/rogues-civ-venice/icons/unitflag_doge.png</Path>

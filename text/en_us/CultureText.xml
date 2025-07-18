@@ -58,7 +58,7 @@
 		
 		<!--Venice Civic Description-->
 		<Row Tag="MOD_TRADIZIONE_DEGLI_ARSENALOTTI_FLOTTA_VELOCE_DESCRIPTION">
-			<Text>+1 Movement for Naval Units.</Text>
+			<Text>+1 Movement for Naval Units during a Celebration.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_STATO_DEL_MAR_MARINE_FOOD_DESCRIPTION">
 			<Text>+2 [icon:YIELD_FOOD] Food for each Marine tile.</Text>
@@ -83,15 +83,14 @@
 			<Text>Fornace di Murano</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_FORNA_DE_MURANO_DESCRIPTION">
-
-			<Text>Trade buildings receive +2 [icon:YIELD_GOLD] Gold.</Text>
+			<Text>Urban Center buildings receive +2 [icon:YIELD_GOLD] Gold.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_COSTRUZIONE_NAVALE_ACCELERATA_NAME">
 			<Text>Costruzione Navale Accellerata</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_COSTRUZIONE_NAVALE_ACCELERATA_DESCRIPTION">
-			<Text>+25%[icon:YIELD_GOLD] Gold towards purchasing Naval Units.</Text>
+			<Text>+50%[icon:YIELD_GOLD] Gold towards purchasing Urban Center Buildings.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_POTENZIA_VENEZIA_NAME">

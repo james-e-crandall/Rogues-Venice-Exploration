@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_WONDER_VENETIAN_ARSENAL_NAME">
+			<Text>Venetian Arsenal</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_VENETIAN_ARSENAL_DESCRIPTION">
+			<Text>+2[icon:YIELD_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_VENETIAN_ARSENAL_TOOLTIP">
+			<Text>Grants this City[icon:YIELD_PRODUCTION] Production per turn equal to 50% of its[icon:YIELD_CULTURE] Culture yield.</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_WONDER_VENETIAN_ARSENAL">
+			<Text>The Commonwealth of Venice in their armory have this inscription: 'Happy is that city which in time of peace thinks of war.</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_AUTHOR_WONDER_VENETIAN_ARSENAL">
+			<Text>Robert Burton</Text>
+		</Row>
+
+    </EnglishText>
+</Database>

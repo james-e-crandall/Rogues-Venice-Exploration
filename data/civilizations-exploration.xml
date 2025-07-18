@@ -10,6 +10,9 @@
 		<!-- Full Civs -->
 		<Row CivilizationType="CIVILIZATION_VENICE" Name="LOC_CIVILIZATION_VENICE_NAME" FullName="LOC_CIVILIZATION_VENICE_FULLNAME" Description="LOC_CIVILIZATION_VENICE_DESCRIPTION" Adjective="LOC_CIVILIZATION_VENICE_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_EX_VENICE" CapitalName="LOC_CITY_NAME_VENICE1" RandomCityNameDepth="10"/>
 	</Civilizations>
+	<CivilizationFavoredWonders>
+		<Row CivilizationType="CIVILIZATION_VENICE" FavoredWonderType="WONDER_VENETIAN_ARSENAL" FavoredWonderName="LOC_WONDER_VENETIAN_ARSENAL_NAME"/>
+	</CivilizationFavoredWonders>
 	<Traits>
 		<!--Civ Traits-->
 		<Row TraitType="TRAIT_VENICE_ABILITY" Name="LOC_TRAIT_VENICE_ABILITY_NAME" Description="LOC_TRAIT_VENICE_ABILITY_DESCRIPTION" InternalOnly="true"/>

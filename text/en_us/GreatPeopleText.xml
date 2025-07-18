@@ -12,9 +12,6 @@
 			<Text>The Palace receives +3[icon:YIELD_GOLD] Gold.</Text>
 		</Row>
 
-
-
-
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_NAME">
 			<Text>Orso Ipato</Text>
 		</Row>
@@ -46,8 +43,6 @@
 			<Text>Create a Guildhall in a City. This Guildhall receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Guildhall.</Text>
 		</Row>
 
-
-
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORDELAFO_FALIERO_NAME">
 			<Text>Ordelafo Faliero</Text>
 		</Row>
@@ -67,10 +62,6 @@
 		<Row Tag="LOC_DOGE_OBSERVATORY">
 			<Text>Create a Observatory in a City. This Observatory receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Observatory.</Text>
 		</Row>
-
- 
-
-
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_BARTOLOMEO_GRADENIGO_NAME">
 			<Text>Bartolomeo Gradenigo</Text>
@@ -101,8 +92,6 @@
 		<Row Tag="LOC_DOGE_FLEET_COMMANDER_PROMOTION">
 			<Text>Activate on an Fleet Commander to grant it 2 free Promotions.</Text>
 		</Row>
-
-		
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ENRICO_DANDOLO_NAME">
 			<Text>Enrico Dandolo </Text>
 		</Row>
@@ -115,8 +104,8 @@
 		<Row Tag="LOC_DOGE_LAND_CLAIM">
 			<Text> Activated on a Fleet Commander Unit to change its name to "Despot of the Latins." Gains 1 charge to create a new Settlement for every 3 Levels it has.</Text>
 		</Row>
-		<Row Tag="LOC_DOGE_3_MOUNTED">
-			<Text>Receive 3 Naval Units.</Text>
+		<Row Tag="LOC_ABILITY_ENRICO_DANDOLO_LAND_UNITS_PREVIEW">
+			<Text>+{1_Amount} First Strike</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_MOROSINI_NAME">
 			<Text>Francesco Morosini</Text>
