@@ -24,6 +24,14 @@
 			<Path>fs://game/rogues-civ-venice/icons/lsbg_venice_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
+        <Row>
+            <ID>bg-panel-venice</ID>
+			<Path>fs://game/rogues-civ-venice/icons/bg-panel-venice.png</Path>
+        </Row>
+        <Row>
+            <ID>bg-card-venice</ID>
+			<Path>fs://game/rogues-civ-venice/icons/bg-card-venice.png</Path>
+        </Row>
 		<!-- Constructable -->
 		<Row>
 			<ID>IMPROVEMENT_BACINO</ID>

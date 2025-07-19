@@ -16,20 +16,20 @@
 		<Row Type="UNIT_DOGE_ENRICO_DANDOLO" Kind="KIND_UNIT"/>
 	</Types>
 	<Units>
-		<Row UnitType="UNIT_DOGE" Name="LOC_UNIT_DOGE_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE"/>
-		<Row UnitType="UNIT_DOGE_ORSO_IPATO" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_DOGE_FRANCESCO_FOSCARI" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_FOSCARI_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_DOGE" Name="LOC_UNIT_DOGE_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" SpreadCharges="3"/>
+		<Row UnitType="UNIT_DOGE_ORSO_IPATO" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false" SpreadCharges="3"/>
+		<Row UnitType="UNIT_DOGE_FRANCESCO_FOSCARI" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_FOSCARI_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false" SpreadCharges="3"/>
 
-		<Row UnitType="UNIT_DOGE_LUDOVICO_MANIN" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_LUDOVICO_MANIN_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_DOGE_ORDELAFO_FALIERO" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORDELAFO_FALIERO_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_DOGE_LUDOVICO_MANIN" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_LUDOVICO_MANIN_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false" SpreadCharges="3"/>
+		<Row UnitType="UNIT_DOGE_ORDELAFO_FALIERO" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORDELAFO_FALIERO_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false" SpreadCharges="3"/>
 
-		<Row UnitType="UNIT_DOGE_BARTOLOMEO_GRADENIGO" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_BARTOLOMEO_GRADENIGO_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_DOGE_BARTOLOMEO_GRADENIGO" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_BARTOLOMEO_GRADENIGO_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false" SpreadCharges="3"/>
 		<Row UnitType="UNIT_DOGE_PIETRO_TRADONICO" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_PIETRO_TRADONICO_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_DOGE_DOMENICO_II_CONTARINI" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_DOMENICO_II_CONTARINI_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_DOGE_DOMENICO_II_CONTARINI" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_DOMENICO_II_CONTARINI_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false" SpreadCharges="3"/>
 
-		<Row UnitType="UNIT_DOGE_SABASTIANO_VENIER" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_SABASTIANO_VENIER_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_DOGE_ENRICO_DANDOLO" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ENRICO_DANDOLO_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_DOGE_FRANCESCO_MOROSINI" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_MOROSINI_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_DOGE_SABASTIANO_VENIER" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_SABASTIANO_VENIER_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false" SpreadCharges="3"/>
+		<Row UnitType="UNIT_DOGE_ENRICO_DANDOLO" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ENRICO_DANDOLO_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false" SpreadCharges="3"/>
+		<Row UnitType="UNIT_DOGE_FRANCESCO_MOROSINI" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_MOROSINI_NAME" Description="LOC_UNIT_DOGE_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" TraitType="TRAIT_VENICE" CanTrain="false" CanPurchase="false" SpreadCharges="3"/>
 
 
 	</Units>
@@ -62,24 +62,34 @@
 		<!--Civ Unique Civilian-->
 		<Row Type="UNIT_DOGE" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_DOGE" Tag="UNIT_CLASS_DOGE"/>
+		<Row Type="UNIT_DOGE" Tag="UNIT_CLASS_RELIGIOUS"/>
 		<Row Type="UNIT_DOGE_ORSO_IPATO" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_DOGE_ORSO_IPATO" Tag="UNIT_CLASS_DOGE"/>
+		<Row Type="UNIT_DOGE_ORSO_IPATO" Tag="UNIT_CLASS_RELIGIOUS"/>
 		<Row Type="UNIT_DOGE_FRANCESCO_FOSCARI" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_DOGE_FRANCESCO_FOSCARI" Tag="UNIT_CLASS_DOGE"/>
+		<Row Type="UNIT_DOGE_FRANCESCO_FOSCARI" Tag="UNIT_CLASS_RELIGIOUS"/>
 		<Row Type="UNIT_DOGE_LUDOVICO_MANIN" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_DOGE_LUDOVICO_MANIN" Tag="UNIT_CLASS_DOGE"/>
+		<Row Type="UNIT_DOGE_LUDOVICO_MANIN" Tag="UNIT_CLASS_RELIGIOUS"/>
 		<Row Type="UNIT_DOGE_ORDELAFO_FALIERO" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_DOGE_ORDELAFO_FALIERO" Tag="UNIT_CLASS_DOGE"/>
+		<Row Type="UNIT_DOGE_ORDELAFO_FALIERO" Tag="UNIT_CLASS_RELIGIOUS"/>
 		<Row Type="UNIT_DOGE_BARTOLOMEO_GRADENIGO" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_DOGE_BARTOLOMEO_GRADENIGO" Tag="UNIT_CLASS_DOGE"/>
+		<Row Type="UNIT_DOGE_BARTOLOMEO_GRADENIGO" Tag="UNIT_CLASS_RELIGIOUS"/>
 		<Row Type="UNIT_DOGE_PIETRO_TRADONICO" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_DOGE_PIETRO_TRADONICO" Tag="UNIT_CLASS_DOGE"/>
+		<Row Type="UNIT_DOGE_PIETRO_TRADONICO" Tag="UNIT_CLASS_RELIGIOUS"/>
 		<Row Type="UNIT_DOGE_ENRICO_DANDOLO" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_DOGE_ENRICO_DANDOLO" Tag="UNIT_CLASS_DOGE"/>
+		<Row Type="UNIT_DOGE_ENRICO_DANDOLO" Tag="UNIT_CLASS_RELIGIOUS"/>
 		<Row Type="UNIT_DOGE_SABASTIANO_VENIER" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_DOGE_SABASTIANO_VENIER" Tag="UNIT_CLASS_DOGE"/>
+		<Row Type="UNIT_DOGE_SABASTIANO_VENIER" Tag="UNIT_CLASS_RELIGIOUS"/>
 		<Row Type="UNIT_DOGE_FRANCESCO_MOROSINI" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_DOGE_FRANCESCO_MOROSINI" Tag="UNIT_CLASS_DOGE"/>
+		<Row Type="UNIT_DOGE_FRANCESCO_MOROSINI" Tag="UNIT_CLASS_RELIGIOUS"/>
 	</TypeTags>
 	<UnitClass_Abilities>
 	</UnitClass_Abilities>

@@ -7,5 +7,9 @@
 		<Row Tag="LOC_LOADING_VO_VENICE">
 			<Text>The tides rise, and fall, but Venice endures. Upon the lagoon, a legacy of trade, cunning, and defiance will be forged.</Text>
 		</Row>
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_VENICE">
+			<Text>Count your wealth from Trade Ships and count the faithful of the Doge of Venice.</Text>
+		</Row>
+		
 	</EnglishText>
 </Database>

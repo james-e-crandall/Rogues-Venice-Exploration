@@ -5,7 +5,7 @@
 			<Text>Doge (Doge di Venezia)</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_DOGE_DESCRIPTION">
-			<Text>A Great Person with one charge. Can only be trained in the Capital, and the specific Doge received is random. Each Doge can only be received once. Cost increases per Doge trained.</Text>
+			<Text>A Great Person with one charge, as well as having the Spread Religion action. Can only be trained in a city with a Temple, and the specific Doge received is random. Each Doge can only be received once. Cost increases per Doge trained.</Text>
 		</Row>
 		<Row Tag="LOC_DOGE_TEMPLE">
 			<Text>Create a Temple in a City.  Tile must have less than 2 Buildings and the City cannot have a Temple.</Text>

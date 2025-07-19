@@ -16,7 +16,7 @@
         <Row Type="ABILITY_ENRICO_DANDOLO_LAND_UNITS" Kind="KIND_ABILITY"/>
     </Types>
     <GreatPersonClasses>
-        <Row GreatPersonClassType="GREAT_PERSON_CLASS_DOGE" Name="LOC_UNIT_DOGE_NAME" UnitType="UNIT_DOGE" ConstructibleType="BUILDING_PALACE" AvailableInTimeline="true" GenerateDuplicateIndividuals="true" PseudoYieldType="PSEUDOYIELD_STANDING_ARMY_COMMANDER" IconString="unitflag_doge" ActionIcon="action_greatperson"/>  
+        <Row GreatPersonClassType="GREAT_PERSON_CLASS_DOGE" Name="LOC_UNIT_DOGE_NAME" UnitType="UNIT_DOGE" ConstructibleType="BUILDING_TEMPLE" AvailableInTimeline="true" GenerateDuplicateIndividuals="true" PseudoYieldType="PSEUDOYIELD_STANDING_ARMY_COMMANDER" IconString="unitflag_doge" ActionIcon="action_greatperson"/>  
     </GreatPersonClasses>
     <GreatPersonIndividuals>
         <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_DOGE" AgeType="AGE_EXPLORATION" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_URBAN"  ActionRequiresNoConstructibleTypeInCity="BUILDING_TEMPLE" ActionRequiresConstructionTypePermission="BUILDING_TEMPLE" ActionRequiresLessThanXBuildings="2" ActionRequiresOwnedTile="true" ActionRequiresTown="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_DOGE_ORSO_IPATO"/>

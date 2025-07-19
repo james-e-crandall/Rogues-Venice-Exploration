@@ -77,6 +77,9 @@
 					<Item>assets/icon/lsbg_venice_1080.png</Item>
 					<Item>assets/icon/unitflag_doge.png</Item>
 					<Item>assets/icon/wondericon_venetial_arsenal.png</Item>
+					<Item>assets/icon/unitflag_doge.png</Item>
+					<Item>assets/icon/bg-panel-venice.png</Item>
+					<Item>assets/icon/bg-card-venice.png</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -159,6 +162,8 @@
 					<Item>assets/icon/lsbg_venice_1080</Item>
 					<Item>assets/icon/unitflag_doge.png</Item>
 					<Item>assets/icon/wondericon_venetial_arsenal.png</Item>
+					<Item>assets/icon/bg-panel-venice.png</Item>
+					<Item>assets/icon/bg-card-venice.png</Item>
 				</ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
