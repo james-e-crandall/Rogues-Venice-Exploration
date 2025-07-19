@@ -41,18 +41,6 @@
 		<String context="Summary">LOC_DOGE_TEMPLE_SMALL_HAPPINESS</String>
 	</Modifier>
 
-	<Modifier id="DOGE_GRANT_MISSIONARY" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE" inverse="true">
-				<Argument name="ProgressionTreeNodeType">NODE_CIVIC_EX_MAIN_PIETY</Argument>
-				<Argument name="MinDepth">1</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="UnitType">UNIT_MISSIONARY</Argument>
-		<Argument name="Amount">1</Argument>
-		<String context="Summary">LOC_DOGE_GRANT_MISSIONARY</String>
-	</Modifier>
-
 	<Modifier id="DODGE_RANDOM_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_PROGRESSION" permanent="true">
 		<Argument name="Amount">1</Argument>
 		<Argument name="SystemType">SYSTEM_CULTURE</Argument>
@@ -75,9 +63,9 @@
 	<Modifier id="DOGE_RENAME_COMMANDER_ENRICO_DANDOLO" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">
 		<Argument name="Name">LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ENRICO_DANDOLO_FLEET_COMMANDER_NAME</Argument>
 	</Modifier>
-	<Modifier id="DOGE_COMMANDER_LAND_CLAIM_ENRICO_DANDOLO" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+	<Modifier id="DOGE_ABILITY_ENRICO_DANDOLO" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<Argument name="AbilityType">ABILITY_ENRICO_DANDOLO</Argument>
-		<String context="Summary">LOC_DOGE_LAND_CLAIM</String>
+		<String context="Summary">LOC_DOGE_ABILITY_ENRICO_DANDOLO</String>
 	</Modifier>
 	<Modifier id="MOD_ENRICO_DANDOLO_LAND_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
