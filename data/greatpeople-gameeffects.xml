@@ -41,6 +41,18 @@
 		<String context="Summary">LOC_DOGE_TEMPLE_SMALL_HAPPINESS</String>
 	</Modifier>
 
+	<Modifier id="DOGE_GRANT_MISSIONARY" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE" inverse="true">
+				<Argument name="ProgressionTreeNodeType">NODE_CIVIC_EX_MAIN_PIETY</Argument>
+				<Argument name="MinDepth">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitType">UNIT_MISSIONARY</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Summary">LOC_DOGE_GRANT_MISSIONARY</String>
+	</Modifier>
+
 	<Modifier id="DODGE_RANDOM_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_PROGRESSION" permanent="true">
 		<Argument name="Amount">1</Argument>
 		<Argument name="SystemType">SYSTEM_CULTURE</Argument>
