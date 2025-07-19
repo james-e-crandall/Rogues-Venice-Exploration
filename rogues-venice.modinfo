@@ -131,9 +131,9 @@
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/constructibles-no-persist.xml</Item>
 					<Item>data/loading-info-exploration.xml</Item>
-					<Item>data/progression-trees-tech.xml</Item> <!-- We'll get back to this -->
+					<Item>data/progression-trees-tech.xml</Item>
 					<Item>data/units.xml</Item>
-					<!-- <Item>data/units-gameeffects.xml</Item> -->
+					<Item>data/progression-trees-culture-common.xml</Item>
 					<Item>data/AI_Exploration.xml</Item>
 					<Item>data/metaprogression-venice.xml</Item>
 					<Item>data/greatpeople-gameeffects.xml</Item>

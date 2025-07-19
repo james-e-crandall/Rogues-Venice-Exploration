@@ -7,80 +7,81 @@
 		<Row Tag="LOC_UNIT_DOGE_DESCRIPTION">
 			<Text>A Great Person with one charge. Can only be trained in the Capital, and the specific Doge received is random. Each Doge can only be received once. Cost increases per Doge trained.</Text>
 		</Row>
+		<Row Tag="LOC_DOGE_TEMPLE">
+			<Text>Create a Temple in a City.  Tile must have less than 2 Buildings and the City cannot have a Temple.</Text>
+		</Row>
 
-		<Row Tag="LOC_DOGE_PALACE_SMALL_GOLD">
-			<Text>The Palace receives +3[icon:YIELD_GOLD] Gold.</Text>
+		<Row Tag="LOC_DOGE_TEMPLE_SMALL_GOLD">
+			<Text>The Temple receives +3[icon:YIELD_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_TEMPLE_SMALL_SCIENCE">
+			<Text>The Temple receives +3[icon:YIELD_SCIENCE] Science.</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_TEMPLE_SMALL_CULTURE">
+			<Text>The Temple receives +3[icon:YIELD_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_TEMPLE_SMALL_DIPLOMACY">
+			<Text>The Temple receives +3[icon:YIELD_DIPLOMACY] Influence.</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_TEMPLE_SMALL_PRODUCTION">
+			<Text>The Temple receives +3[icon:YIELD_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_TEMPLE_SMALL_HAPPINESS">
+			<Text>The Temple receives +3[icon:YIELD_HAPPINESS] Happiness.</Text>
+		</Row>
+		<Row Tag="LOC_DOGE_FREE_CULTURE">
+			<Text>Receive a free random unlocked Culture.</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_NAME">
 			<Text>Orso Ipato</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORSO_IPATO_DESCRIPTION">
-			<Text>{LOC_DOGE_BAZAAR}</Text>
+			<Text>{LOC_DOGE_TEMPLE}{LOC_DOGE_TEMPLE_SMALL_GOLD}</Text>
 		</Row>
-		<Row Tag="LOC_DOGE_BAZAAR">
-			<Text>Create a Bazaar in a City. This Bazaar receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Bazaar.</Text>
-		</Row>
-
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_FOSCARI_NAME">
 			<Text>Francesco Foscari</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_FRANCESCO_FOSCARI_DESCRIPTION">
-			<Text>{LOC_DOGE_DUNGEON}</Text>
-		</Row>
-		<Row Tag="LOC_DOGE_DUNGEON">
-			<Text>Create a Dungeon in a City. This Dungeon receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Dungeon.</Text>
+			<Text>{LOC_DOGE_TEMPLE}{LOC_DOGE_TEMPLE_SMALL_SCIENCE}</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_LUDOVICO_MANIN_NAME">
 			<Text>Ludovico Manin</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_LUDOVICO_MANIN_DESCRIPTION">
-			<Text>{LOC_DOGE_GUILDHALL}</Text>
+			<Text>{LOC_DOGE_TEMPLE}{LOC_DOGE_TEMPLE_SMALL_CULTURE}</Text>
 		</Row>
-		<Row Tag="LOC_DOGE_GUILDHALL">
-			<Text>Create a Guildhall in a City. This Guildhall receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Guildhall.</Text>
-		</Row>
+
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORDELAFO_FALIERO_NAME">
 			<Text>Ordelafo Faliero</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_ORDELAFO_FALIERO_DESCRIPTION">
-			<Text>{LOC_DOGE_KILN}</Text>
-		</Row>
-		<Row Tag="LOC_DOGE_KILN">
-			<Text>Create a Kiln in a City. This Kiln receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Kiln.</Text>
+				<Text>{LOC_DOGE_TEMPLE}{LOC_DOGE_TEMPLE_SMALL_DIPLOMACY}</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_PIETRO_TRADONICO_NAME">
 			<Text>Pietro Tradonico</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_PIETRO_TRADONICO_DESCRIPTION">
-			<Text>{LOC_DOGE_OBSERVATORY}</Text>
+				<Text>{LOC_DOGE_TEMPLE}{LOC_DOGE_TEMPLE_SMALL_PRODUCTION}</Text>
 		</Row>
-		<Row Tag="LOC_DOGE_OBSERVATORY">
-			<Text>Create a Observatory in a City. This Observatory receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Observatory.</Text>
-		</Row>
+
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_BARTOLOMEO_GRADENIGO_NAME">
 			<Text>Bartolomeo Gradenigo</Text>
 		</Row>
         <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_BARTOLOMEO_GRADENIGO_DESCRIPTION">
-			<Text>{LOC_DOGE_TAVERN}</Text>
-		</Row>
-		<Row Tag="LOC_DOGE_TAVERN">
-			<Text>Create a Tavern in a City. This Tavern receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Tavern.</Text>
+				<Text>{LOC_DOGE_TEMPLE}{LOC_DOGE_TEMPLE_SMALL_HAPPINESS}</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_DOMENICO_II_CONTARINI_NAME">
 			<Text>Domenico II Contarini</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_DOMENICO_II_CONTARINI_DESCRIPTION">
-			<Text>{LOC_DOGE_WHARF}</Text>
-		</Row>
-		<Row Tag="LOC_DOGE_WHARF">
-			<Text>Create a Wharf in a City. This Wharf receives +2[icon:YIELD_HAPPINESS] Happiness. Tile must have less than 2 Buildings and the City cannot have a Wharf.</Text>
+				<Text>{LOC_DOGE_TEMPLE}{LOC_DOGE_FREE_CULTURE}</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOGE_SABASTIANO_VENIER_NAME">
