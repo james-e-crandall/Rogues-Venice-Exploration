@@ -138,7 +138,7 @@
 					<Item>data/progression-trees-tech.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/progression-trees-culture-common.xml</Item>
-					<Item>data/AI_Exploration.xml</Item>
+					<Item>data/ai_exploration.xml</Item>
 					<Item>data/metaprogression-venice.xml</Item>
 					<Item>data/greatpeople-gameeffects.xml</Item>
 					<Item>data/greatpeople.xml</Item>
@@ -161,8 +161,8 @@
 					<Item>assets/icon/civ_sym_venice</Item>
                     <Item>assets/icon/civ_sym_venice.png</Item>              
 					<Item>assets/icon/cult_venice.png</Item>
-					<Item>assets/icon/lsbg_venice_720</Item>
-					<Item>assets/icon/lsbg_venice_1080</Item>
+					<Item>assets/icon/lsbg_venice_720.png</Item>
+					<Item>assets/icon/lsbg_venice_1080.png</Item>
 					<Item>assets/icon/unitflag_doge.png</Item>
 					<Item>assets/icon/wondericon_venetial_arsenal.png</Item>
 					<Item>assets/icon/bg-panel-venice.png</Item>
