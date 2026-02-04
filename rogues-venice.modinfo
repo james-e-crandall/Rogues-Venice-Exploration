@@ -101,6 +101,7 @@
 					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
 					<Item>text/en_us/AttributesText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -141,6 +142,8 @@
 					<Item>data/metaprogression-venice.xml</Item>
 					<Item>data/greatpeople-gameeffects.xml</Item>
 					<Item>data/greatpeople.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CitizenNamesText.xml</Item>

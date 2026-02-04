@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_VENICE_COMPLETED_PROGRESSION_TREEA_STORYTITLE">
+            <Text>Lion of St. Mark</Text>
+        </Row>
+        <Row Tag="LOC_VENICE_COMPLETED_PROGRESSION_TREEA_COMPLETION">
+            <Text>Peace be with thee, O Mark, my evangelist. Here thy body will rest.</Text>
+        </Row>
+        <Row Tag="LOC_VENICE_COMPLETED_PROGRESSION_TREEB_NAME">
+            <Text>Venice's pride fuels its economy.</Text>
+        </Row>
+        <Row Tag="LOC_VENICE_COMPLETED_PROGRESSION_TREEB_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_VENICE_COMPLETED_PROGRESSION_TREEC_NAME">
+            <Text>Venice's pride lies in its leaders.</Text>
+        </Row>
+        <Row Tag="LOC_VENICE_COMPLETED_PROGRESSION_TREEC_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+
+    </EnglishText>
+</Database>

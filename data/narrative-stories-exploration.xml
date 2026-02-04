@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+        <Row Type="VENICE_COMPLETED_PROGRESSION_TREEA" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="VENICE_COMPLETED_PROGRESSION_TREEB" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="VENICE_COMPLETED_PROGRESSION_TREEC" Kind="KIND_NARRATIVE_STORY"/>
+    </Types>
+    <NarrativeStories>
+        <Row NarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEA" Name="LOC_VENICE_COMPLETED_PROGRESSION_TREEA_NAME" Description="LOC_VENICE_COMPLETED_PROGRESSION_TREEA_DESCRIPTION" Completion="LOC_VENICE_COMPLETED_PROGRESSION_TREEA_COMPLETION" StoryTitle="LOC_VENICE_COMPLETED_PROGRESSION_TREEA_STORYTITLE" Age="AGE_ANTIQUITY" Activation="REQUISITE" RequirementSetId="REQSET_VENICE_COMPLETED_PROGRESSION_TREEA_NARRATIVE" ActivationRequirementSetId="REQSET_VENICE_COMPLETED_PROGRESSION_TREEA_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEB" Name="LOC_VENICE_COMPLETED_PROGRESSION_TREEB_NAME" Description="LOC_VENICE_COMPLETED_PROGRESSION_TREEB_DESCRIPTION" Completion="LOC_VENICE_COMPLETED_PROGRESSION_TREEB_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEC" Name="LOC_VENICE_COMPLETED_PROGRESSION_TREEC_NAME" Description="LOC_VENICE_COMPLETED_PROGRESSION_TREEC_DESCRIPTION" Completion="LOC_VENICE_COMPLETED_PROGRESSION_TREEC_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+       
+    </NarrativeStories>
+    <NarrativeRewards>
+        <Row NarrativeRewardType="VENICE_COMPLETED_PROGRESSION_TREEB_REWARD" ModifierID="VENICE_COMPLETED_PROGRESSION_TREEB_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="VENICE_COMPLETED_PROGRESSION_TREEC_REWARD" ModifierID="VENICE_COMPLETED_PROGRESSION_TREEC_NARRATIVE_MODIFIER"/>
+    </NarrativeRewards>
+    <NarrativeStory_Rewards>
+        <Row NarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEB" NarrativeRewardType="VENICE_COMPLETED_PROGRESSION_TREEB_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEC" NarrativeRewardType="VENICE_COMPLETED_PROGRESSION_TREEC_REWARD" Activation="START"/>
+    </NarrativeStory_Rewards>
+    <NarrativeStoryOverrides>
+    </NarrativeStoryOverrides>
+    <NarrativeVariations>
+    </NarrativeVariations>
+    <NarrativeRewardIcons>
+        <Row NarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEB" RewardIconType="ATTRIBUTE_ECONOMIC"/>
+        <Row NarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEC" RewardIconType="ATTRIBUTE_POLITICAL"/>
+    </NarrativeRewardIcons>
+    <NarrativeStory_TextReplacements>
+        <Row NarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEB" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEC" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+    </NarrativeStory_TextReplacements>
+    <NarrativeStory_Links>
+        <Row FromNarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEA" ToNarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEB" Priority="0" Name="LOC_VENICE_COMPLETED_PROGRESSION_TREEB_NAME" Description="LOC_VENICE_COMPLETED_PROGRESSION_TREEB_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEA" ToNarrativeStoryType="VENICE_COMPLETED_PROGRESSION_TREEC" Priority="1" Name="LOC_VENICE_COMPLETED_PROGRESSION_TREEC_NAME" Description="LOC_VENICE_COMPLETED_PROGRESSION_TREEC_DESCRIPTION"/>
+    </NarrativeStory_Links>
+</Database>
